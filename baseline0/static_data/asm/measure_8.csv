@@ -1,0 +1,28 @@
+address;source_location;insn;indent
+0x1880;/home/sofiane/AOC/demo/kernel.c:45;MULSS	%XMM1,%XMM0;
+0x1884;/home/sofiane/AOC/demo/kernel.c:45;DIVSS	(%RBX,%RBP,1),%XMM0;
+0x1889;/home/sofiane/AOC/demo/kernel.c:45;CVTSS2SD	%XMM0,%XMM0;
+0x188d;/home/sofiane/AOC/demo/kernel.c:45;ADDSD	(%R12,%RBP,2),%XMM0;
+0x1893;/home/sofiane/AOC/demo/kernel.c:45;MOVSD	%XMM0,(%R12,%RBP,2);
+0x1899;/home/sofiane/AOC/demo/kernel.c:41;ADD	$0x4,%RBP;
+0x189d;/home/sofiane/AOC/demo/kernel.c:41;CMP	%RBP,%R13;
+0x18a0;/home/sofiane/AOC/demo/kernel.c:41;JE	18f8 <kernel+0xc8>;
+0x18a2;/home/sofiane/AOC/demo/kernel.c:42;MOVSS	(%R14,%RBP,1),%XMM0;
+0x18a8;/home/sofiane/AOC/demo/kernel.c:42;PXOR	%XMM1,%XMM1;
+0x18ac;/home/sofiane/AOC/demo/kernel.c:42;COMISS	%XMM1,%XMM0;
+0x18af;/home/sofiane/AOC/demo/kernel.c:42;JB	1899 <kernel+0x69>;
+0x18b1;/home/sofiane/AOC/demo/kernel.c:42;COMISS	%XMM0,%XMM2;
+0x18b4;/home/sofiane/AOC/demo/kernel.c:43;MOVSS	(%R15),%XMM1;
+0x18b9;/home/sofiane/AOC/demo/kernel.c:42;JBE	1880 <kernel+0x50>;
+0x18bb;/home/sofiane/AOC/demo/kernel.c:43;ADDSS	%XMM1,%XMM0;
+0x18bf;/home/sofiane/AOC/demo/kernel.c:43;CVTSS2SD	%XMM0,%XMM0;
+0x18c3;/home/sofiane/AOC/demo/kernel.c:43;CALL	1180 <.plt.sec@start+0x90>;
+0x18c8;/home/sofiane/AOC/demo/kernel.c:43;PXOR	%XMM1,%XMM1;
+0x18cc;/home/sofiane/AOC/demo/kernel.c:43;MOVSS	0x730(%RIP),%XMM2;
+0x18d4;/home/sofiane/AOC/demo/kernel.c:43;CVTSS2SD	(%RBX,%RBP,1),%XMM1;
+0x18d9;/home/sofiane/AOC/demo/kernel.c:43;DIVSD	%XMM1,%XMM0;
+0x18dd;/home/sofiane/AOC/demo/kernel.c:43;ADDSD	(%R12,%RBP,2),%XMM0;
+0x18e3;/home/sofiane/AOC/demo/kernel.c:43;MOVSD	%XMM0,(%R12,%RBP,2);
+0x18e9;/home/sofiane/AOC/demo/kernel.c:41;ADD	$0x4,%RBP;
+0x18ed;/home/sofiane/AOC/demo/kernel.c:41;CMP	%RBP,%R13;
+0x18f0;/home/sofiane/AOC/demo/kernel.c:41;JNE	18a2 <kernel+0x72>;

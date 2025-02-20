@@ -1,0 +1,65 @@
+address;source_location;insn;indent
+0x1830;/home/sofiane/AOC/demo/kernel.c:38;ENDBR64;
+0x1834;/home/sofiane/AOC/demo/kernel.c:39;TEST	%EDI,%EDI;
+0x1836;/home/sofiane/AOC/demo/kernel.c:39;JE	1916 <kernel+0xe6>;
+0x183c;/home/sofiane/AOC/demo/kernel.c:38;PUSH	%R15;
+0x183e;/home/sofiane/AOC/demo/kernel.c:38;LEA	0x30(%R8),%RAX;
+0x1842;/home/sofiane/AOC/demo/kernel.c:38;MOV	%EDI,%EDI;
+0x1844;/home/sofiane/AOC/demo/kernel.c:38;MOV	%R8,%R15;
+0x1847;/home/sofiane/AOC/demo/kernel.c:38;PUSH	%R14;
+0x1849;/home/sofiane/AOC/demo/kernel.c:38;MOV	%RDX,%R14;
+0x184c;/home/sofiane/AOC/demo/kernel.c:38;PUSH	%R13;
+0x184e;/home/sofiane/AOC/demo/kernel.c:38;LEA	(,%RDI,4),%R13;
+0x1856;/home/sofiane/AOC/demo/kernel.c:38;PUSH	%R12;
+0x1858;/home/sofiane/AOC/demo/kernel.c:38;MOV	%RSI,%R12;
+0x185b;/home/sofiane/AOC/demo/kernel.c:38;PUSH	%RBP;
+0x185c;/home/sofiane/AOC/demo/kernel.c:38;PUSH	%RBX;
+0x185d;/home/sofiane/AOC/demo/kernel.c:38;MOV	%RCX,%RBX;
+0x1860;/home/sofiane/AOC/demo/kernel.c:38;SUB	$0x18,%RSP;
+0x1864;/home/sofiane/AOC/demo/kernel.c:42;MOVSS	0x798(%RIP),%XMM2;
+0x186c;/home/sofiane/AOC/demo/kernel.c:42;MOV	%RAX,0x8(%RSP);
+0x1871;/home/sofiane/AOC/demo/kernel.c:42;NOPL	(%RAX);
+0x1878;/home/sofiane/AOC/demo/kernel.c:38;XOR	%EBP,%EBP;(7) 
+0x187a;/home/sofiane/AOC/demo/kernel.c:38;JMP	18a2 <kernel+0x72>;(7) 
+0x187c;/home/sofiane/AOC/demo/kernel.c:38;NOPL	(%RAX);
+0x1880;/home/sofiane/AOC/demo/kernel.c:45;MULSS	%XMM1,%XMM0;  (8) 
+0x1884;/home/sofiane/AOC/demo/kernel.c:45;DIVSS	(%RBX,%RBP,1),%XMM0;  (8) 
+0x1889;/home/sofiane/AOC/demo/kernel.c:45;CVTSS2SD	%XMM0,%XMM0;  (8) 
+0x188d;/home/sofiane/AOC/demo/kernel.c:45;ADDSD	(%R12,%RBP,2),%XMM0;  (8) 
+0x1893;/home/sofiane/AOC/demo/kernel.c:45;MOVSD	%XMM0,(%R12,%RBP,2);  (8) 
+0x1899;/home/sofiane/AOC/demo/kernel.c:41;ADD	$0x4,%RBP;  (8) 
+0x189d;/home/sofiane/AOC/demo/kernel.c:41;CMP	%RBP,%R13;  (8) 
+0x18a0;/home/sofiane/AOC/demo/kernel.c:41;JE	18f8 <kernel+0xc8>;  (8) 
+0x18a2;/home/sofiane/AOC/demo/kernel.c:42;MOVSS	(%R14,%RBP,1),%XMM0;  (8) 
+0x18a8;/home/sofiane/AOC/demo/kernel.c:42;PXOR	%XMM1,%XMM1;  (8) 
+0x18ac;/home/sofiane/AOC/demo/kernel.c:42;COMISS	%XMM1,%XMM0;  (8) 
+0x18af;/home/sofiane/AOC/demo/kernel.c:42;JB	1899 <kernel+0x69>;  (8) 
+0x18b1;/home/sofiane/AOC/demo/kernel.c:42;COMISS	%XMM0,%XMM2;  (8) 
+0x18b4;/home/sofiane/AOC/demo/kernel.c:43;MOVSS	(%R15),%XMM1;  (8) 
+0x18b9;/home/sofiane/AOC/demo/kernel.c:42;JBE	1880 <kernel+0x50>;  (8) 
+0x18bb;/home/sofiane/AOC/demo/kernel.c:43;ADDSS	%XMM1,%XMM0;  (8) 
+0x18bf;/home/sofiane/AOC/demo/kernel.c:43;CVTSS2SD	%XMM0,%XMM0;  (8) 
+0x18c3;/home/sofiane/AOC/demo/kernel.c:43;CALL	1180 <.plt.sec@start+0x90>;  (8) 
+0x18c8;/home/sofiane/AOC/demo/kernel.c:43;PXOR	%XMM1,%XMM1;  (8) 
+0x18cc;/home/sofiane/AOC/demo/kernel.c:43;MOVSS	0x730(%RIP),%XMM2;  (8) 
+0x18d4;/home/sofiane/AOC/demo/kernel.c:43;CVTSS2SD	(%RBX,%RBP,1),%XMM1;  (8) 
+0x18d9;/home/sofiane/AOC/demo/kernel.c:43;DIVSD	%XMM1,%XMM0;  (8) 
+0x18dd;/home/sofiane/AOC/demo/kernel.c:43;ADDSD	(%R12,%RBP,2),%XMM0;  (8) 
+0x18e3;/home/sofiane/AOC/demo/kernel.c:43;MOVSD	%XMM0,(%R12,%RBP,2);  (8) 
+0x18e9;/home/sofiane/AOC/demo/kernel.c:41;ADD	$0x4,%RBP;  (8) 
+0x18ed;/home/sofiane/AOC/demo/kernel.c:41;CMP	%RBP,%R13;  (8) 
+0x18f0;/home/sofiane/AOC/demo/kernel.c:41;JNE	18a2 <kernel+0x72>;  (8) 
+0x18f2;/home/sofiane/AOC/demo/kernel.c:41;NOPW	(%RAX,%RAX,1);(7) 
+0x18f8;/home/sofiane/AOC/demo/kernel.c:40;ADD	$0x4,%R15;(7) 
+0x18fc;/home/sofiane/AOC/demo/kernel.c:40;CMP	%R15,0x8(%RSP);(7) 
+0x1901;/home/sofiane/AOC/demo/kernel.c:40;JNE	1878 <kernel+0x48>;(7) 
+0x1907;/home/sofiane/AOC/demo/kernel.c:49;ADD	$0x18,%RSP;
+0x190b;/home/sofiane/AOC/demo/kernel.c:49;POP	%RBX;
+0x190c;/home/sofiane/AOC/demo/kernel.c:49;POP	%RBP;
+0x190d;/home/sofiane/AOC/demo/kernel.c:49;POP	%R12;
+0x190f;/home/sofiane/AOC/demo/kernel.c:49;POP	%R13;
+0x1911;/home/sofiane/AOC/demo/kernel.c:49;POP	%R14;
+0x1913;/home/sofiane/AOC/demo/kernel.c:49;POP	%R15;
+0x1915;/home/sofiane/AOC/demo/kernel.c:49;RET;
+0x1916;/home/sofiane/AOC/demo/kernel.c:49;RET;
+0x1917;:0;NOPW	(%RAX,%RAX,1);

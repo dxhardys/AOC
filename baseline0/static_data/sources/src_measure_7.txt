@@ -1,0 +1,11 @@
+/home/sofiane/AOC/demo/kernel.c: 38 - 45
+--------------------------------------------------------------------------------
+
+38: void kernel(unsigned n, double a[n], const float b[n] ,const float c[n] ,const float d [12]) {
+39:    unsigned k, i ;
+40:    for(k=0; k<12; k++){
+41:       for(i=0 ; i<n ; i++){
+42:          if(b[i] >= 0.0 && b[i] < 1.0){
+43:            a [i] += exp ( b[i] + d[k]) / c [i];
+44:          } else if (b[i] >= 1.0) {
+45:             a[i] += (b[i] * d[k]) / c[i] ;

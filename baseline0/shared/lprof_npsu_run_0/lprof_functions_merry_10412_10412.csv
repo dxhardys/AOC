@@ -1,0 +1,6 @@
+function_id;module;function_name;source_info;time_p;time_s;time_s_min;time_s_avg;time_s_max;cov_deviation;time_deviation;nb_threads;cats;label_name;flops;
+7;measure;kernel;kernel.c:38-49;51.67;1.31;;;;;;;"100,0,0,0,0,0,0,0,0,0";kernel;;
+681;libm.so.6;f64xsubf128;;20.43;0.52;;;;;;;"0,0,0,100,0,0,0,0,0,0";f64xsubf128;;
+367;libm.so.6;exp;;18.07;0.46;;;;;;;"0,0,0,100,0,0,0,0,0,0";exp;;
+-1;measure;unknown_function;;6.29;0.16;;;;;;;"100,0,0,0,0,0,0,0,0,0";Unknown function;;
+30;libm.so.6;.plt.sec@start;;3.54;0.09;;;;;;;"0,0,0,100,0,0,0,0,0,0";.plt.sec@start;;

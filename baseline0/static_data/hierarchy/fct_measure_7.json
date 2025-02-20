@@ -1,0 +1,42 @@
+{
+  "__fct":
+    {
+      "loops":
+        {
+          "_7":
+            {
+              "_8":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/sofiane/AOC/demo/kernel.c",
+                        "regions":
+                          [
+                            [
+                            41,
+                            45,
+                            ],
+                          ],
+                      },
+                    ],
+                  "src": "kernel.c:41-45",
+                },
+              "src_regions":
+                [
+                  {
+                    "path": "/home/sofiane/AOC/demo/kernel.c",
+                    "regions":
+                      [
+                        [
+                        38,
+                        45,
+                        ],
+                      ],
+                  },
+                ],
+              "src": "kernel.c:38-45",
+            },
+        },
+    },
+}
