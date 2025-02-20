@@ -1,6 +1,6 @@
 CC=gcc
-CFLAGS=-O2 -g -Wall -lm
-OPTFLAGS=-O3 -g -Wall -lm
+CFLAGS=-O3 -g -Wall -lm -ftree-vectorize -funroll-loops -march=native
+OPTFLAGS=-O3 -g -Wall -lm -ftree-vectorize -funroll-loops -march=native
 OBJS_COMMON=kernel.o rdtsc.o
 
 all:	check calibrate measure
