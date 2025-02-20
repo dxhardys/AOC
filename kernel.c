@@ -39,11 +39,13 @@ void kernel(unsigned n, double a[n], const float b[n] ,const float c[n] ,const f
    unsigned k, i ;
 
    for(k=0; k<12; k++){
+      // take out const from loop
+      const float dk = d[k] ;
       for(i=0 ; i<n ; i++){
          if(b[i] >= 0.0 && b[i] < 1.0){
-           a [i] += exp ( b[i] + d[k]) / c [i];
+           a [i] += exp ( b[i] + dk) / c [i];
          } else if (b[i] >= 1.0) {
-            a[i] += (b[i] * d[k]) / c[i] ;
+            a[i] += (b[i] * dk) / c[i] ;
          }
       }
    }
