@@ -1,4 +1,6 @@
 #include <math.h>
+
+
 #ifdef OPT1
 
 /* Removing of store to load dependency (array ref replaced by scalar) */
@@ -35,7 +37,7 @@ void kernel (unsigned n, float a[n][n], float b[n][n], float c[n][n]) {
 #else
 
 /* original */
-void kernel(unsigned n, double a[n], const float b[n] ,const float c[n] ,const float d [12]) {
+void kernel(unsigned n, double* restrict a, const float* restrict b ,const float* restrict c ,const float* restrict d) {
    unsigned k, i ;
 
    for(k=0; k<12; k++){
