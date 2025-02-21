@@ -1,0 +1,19 @@
+{
+  "content": {
+    "proc_name"          : "AMD_fam19h_mod44h",
+    "hostname"           : "merry",
+    "architecture_code"  : "2",
+    "uarchitecture_code" : "35",
+    "architecture"       : "x86_64",
+    "uarchitecture"      : "ZEN_V3",
+    "cpui_model_name"    : "AMD Ryzen 7 6800H with Radeon Graphics",
+    "cpui_cache_size"    : "512 KB",
+    "cpui_cpu_cores"     : "8",
+    "max_frequency"          : "4784375",
+    "cur_frequency"      : "2029292",
+    "driver_frequency"   : "acpi-cpufreq",
+    "scaling_governor"   : "performance",
+    "huge_pages"         : "madvise",
+    "os_version"         : "Linux 5.15.0-126-generic #136-Ubuntu SMP Wed Nov 6 10:38:22 UTC 2024",
+  }
+}

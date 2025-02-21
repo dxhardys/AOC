@@ -53,7 +53,7 @@ void kernel(unsigned n, double* restrict a, const float* restrict b ,const float
       }
    }
 }
-#elif defined OPT3
+#elif defined OPT22
 
 void kernel(unsigned n, double* restrict a, const float* restrict b ,const float* restrict c ,const float* restrict d) {
    unsigned k, i ;
@@ -72,7 +72,7 @@ void kernel(unsigned n, double* restrict a, const float* restrict b ,const float
    }
 }
 
-#elif defined OPT4
+#elif defined OPT3
 // I will perform my optims in this kernel
 /* original */
 void kernel(unsigned n, double* restrict a, const float* restrict b ,const float* restrict c ,const float* restrict d) {
@@ -85,7 +85,7 @@ for(i=0 ; i<n ; i++){
       double sum = 0.0 ;
       for(k=0; k<12; k++){
          if(b_i >= 0.0 && b_i < 1.0){
-           sum += fast_exp2(b[i] + d[k]) / c_i;
+           sum += fast_exp2(b_i + d[k]) / c_i;
          } else if (b_i >= 1.0) {
             sum += (b_i * d[k]) / c_i ;
          }
@@ -93,17 +93,15 @@ for(i=0 ; i<n ; i++){
       a[i] = sum ;
    }
 }
-#elif defined OPT5 
+#elif defined OPT4 
 void kernel(unsigned n, double* restrict a, const float* restrict b ,const float* restrict c ,const float* restrict d) {
    unsigned k, i ;
-
 
 for (i = 0; i < n; i++) {
         const float b_i = b[i];
         const float c_i = c[i];
         double sum = 0.0;
 
-        // Pré-calcul des masques pour supprimer les conditions
         const float mask1 = (b_i >= 0.0f && b_i < 1.0f) ? 1.0f : 0.0f;
         const float mask2 = (b_i >= 1.0f) ? 1.0f : 0.0f;
 
@@ -116,6 +114,50 @@ for (i = 0; i < n; i++) {
     }
 }
 
+#elif defined OPT5
+void kernel(unsigned n, double* restrict a, const float* restrict b ,const float* restrict c ,const float* restrict d) {
+   unsigned k, i ;
+
+#pragma omp parallel for
+for (i = 0; i < n; i++) {
+        const float b_i = b[i];
+        const float c_i = c[i];
+        double sum = 0.0;
+
+        const float mask1 = (b_i >= 0.0f && b_i < 1.0f) ? 1.0f : 0.0f;
+        const float mask2 = (b_i >= 1.0f) ? 1.0f : 0.0f;
+
+        for (k = 0; k < 12; k++) {
+            sum += mask1 * (fast_exp2(b_i + d[k]) / c_i) + 
+                   mask2 * ((b_i * d[k]) / c_i);
+        }
+
+        a[i] = sum;
+    }
+}
+
+#elif defined OPT6
+void kernel(unsigned n, double* restrict a, const float* restrict b ,const float* restrict c ,const float* restrict d) {
+   unsigned k, i ;
+#pragma omp parallel for
+for (i = 0; i < n; i++) {
+        const float b_i = b[i];
+        const float c_i = c[i];
+        double sum = 0.0;
+
+        const float mask1 = (b_i >= 0.0f && b_i < 1.0f) ? 1.0f : 0.0f;
+        const float mask2 = (b_i >= 1.0f) ? 1.0f : 0.0f;
+        const float c_i_inv = 1.0 / c_i ; 
+        for (k = 0; k < 12; k++) {
+            sum += mask1 * (fast_exp2(b_i + d[k]) * c_i_inv) + 
+                   mask2 * ((b_i * d[k]) * c_i_inv);
+        }
+
+        a[i] = sum;
+    }
+}
+
+
 #else
 
 
@@ -126,10 +168,9 @@ void kernel(unsigned n, double* restrict a, const float* restrict b ,const float
    unsigned k, i ;
 
    for(k=0; k<12; k++){
-      // take out const from loop
       for(i=0 ; i<n ; i++){
          if(b[i] >= 0.0 && b[i] < 1.0){
-           a [i] += exp(b[i] + d[k]) / c [i];
+           a[i] += exp(b[i] + d[k]) / c[i];
          } else if (b[i] >= 1.0) {
             a[i] += (b[i] * d[k]) / c[i] ;
          }

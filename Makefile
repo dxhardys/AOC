@@ -1,16 +1,16 @@
 CC=gcc
-CFLAGS=-O3 -g -Wall -lm -ftree-vectorize -funroll-loops -march=native
-OPTFLAGS=-O3 -g -Wall -lm -ftree-vectorize -funroll-loops -march=native
+CFLAGS=-O2 -g -Wall -lm -ftree-vectorize -funroll-loops -march=native -fopenmp -fno-omit-frame-pointer
+OPTFLAGS=-Ofast -g -Wall -lm -ftree-vectorize -funroll-loops -march=native -fopenmp -fno-omit-frame-pointer
 OBJS_COMMON=kernel.o rdtsc.o
 
 all:	check calibrate measure
 
 check:	$(OBJS_COMMON) driver_check.o
-	$(CC) -o $@ $^ -lm
+	$(CC) -o $@ $^ -lm -fopenmp
 calibrate: $(OBJS_COMMON) driver_calib.o
-	$(CC) -o $@ $^ -lm
+	$(CC) -o $@ $^ -lm -fopenmp
 measure: $(OBJS_COMMON) driver.o
-	$(CC) -o $@ $^ -lm
+	$(CC) -o $@ $^ -lm -fopenmp
 
 driver_check.o: driver_check.c
 	$(CC) $(CFLAGS) -D CHECK -c $< -o $@

@@ -1,0 +1,66 @@
+address;source_location;insn;indent
+0x2120;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;ENDBR64;
+0x2124;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:54;TEST	%EDI,%EDI;
+0x2126;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:54;JE	220e <kernel+0xee>;
+0x212c;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;PUSH	%R15;
+0x212e;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;LEA	0x30(%R8),%RAX;
+0x2132;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;MOV	%EDI,%EDI;
+0x2134;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;MOV	%RCX,%R15;
+0x2137;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;PUSH	%R14;
+0x2139;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;MOV	%RDX,%R14;
+0x213c;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;PUSH	%R13;
+0x213e;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;LEA	(,%RDI,4),%R13;
+0x2146;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;PUSH	%R12;
+0x2148;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;MOV	%RSI,%R12;
+0x214b;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;PUSH	%RBP;
+0x214c;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;PUSH	%RBX;
+0x214d;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;MOV	%R8,%RBX;
+0x2150;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:53;SUB	$0x18,%RSP;
+0x2154;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:60;MOVSS	0xea8(%RIP),%XMM3;
+0x215c;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:60;MOV	%RAX,0x8(%RSP);
+0x2161;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:60;NOPL	(%RAX);
+0x2168;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:58;MOVSS	(%RBX),%XMM2;(7) 
+0x216c;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:58;XOR	%EBP,%EBP;(7) 
+0x216e;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:58;JMP	2193 <kernel+0x73>;(7) 
+0x2170;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:63;MULSS	%XMM2,%XMM0;  (8) 
+0x2174;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:63;DIVSS	(%R15,%RBP,1),%XMM0;  (8) 
+0x217a;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:63;CVTSS2SD	%XMM0,%XMM0;  (8) 
+0x217e;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:63;ADDSD	(%R12,%RBP,2),%XMM0;  (8) 
+0x2184;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:63;MOVSD	%XMM0,(%R12,%RBP,2);  (8) 
+0x218a;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:59;ADD	$0x4,%RBP;  (8) 
+0x218e;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:59;CMP	%RBP,%R13;  (8) 
+0x2191;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:59;JE	21f0 <kernel+0xd0>;  (8) 
+0x2193;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:60;MOVSS	(%R14,%RBP,1),%XMM0;  (8) 
+0x2199;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:60;PXOR	%XMM1,%XMM1;  (8) 
+0x219d;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:60;COMISS	%XMM1,%XMM0;  (8) 
+0x21a0;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:60;JB	218a <kernel+0x6a>;  (8) 
+0x21a2;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:60;COMISS	%XMM0,%XMM3;  (8) 
+0x21a5;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:60;JBE	2170 <kernel+0x50>;  (8) 
+0x21a7;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;ADDSS	%XMM2,%XMM0;  (8) 
+0x21ab;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;MOVSS	%XMM2,0x4(%RSP);  (8) 
+0x21b1;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;CVTSS2SD	%XMM0,%XMM0;  (8) 
+0x21b5;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;CALL	1180 <.plt.sec@start+0x90>;  (8) 
+0x21ba;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;PXOR	%XMM1,%XMM1;  (8) 
+0x21be;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;MOVSS	0x4(%RSP),%XMM2;  (8) 
+0x21c4;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;CVTSS2SD	(%R15,%RBP,1),%XMM1;  (8) 
+0x21ca;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;DIVSD	%XMM1,%XMM0;  (8) 
+0x21ce;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;MOVSS	0xe2e(%RIP),%XMM3;  (8) 
+0x21d6;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;ADDSD	(%R12,%RBP,2),%XMM0;  (8) 
+0x21dc;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:61;MOVSD	%XMM0,(%R12,%RBP,2);  (8) 
+0x21e2;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:59;ADD	$0x4,%RBP;  (8) 
+0x21e6;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:59;CMP	%RBP,%R13;  (8) 
+0x21e9;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:59;JNE	2193 <kernel+0x73>;  (8) 
+0x21eb;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:59;NOPL	(%RAX,%RAX,1);(7) 
+0x21f0;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:56;ADD	$0x4,%RBX;(7) 
+0x21f4;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:56;CMP	%RBX,0x8(%RSP);(7) 
+0x21f9;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:56;JNE	2168 <kernel+0x48>;(7) 
+0x21ff;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:67;ADD	$0x18,%RSP;
+0x2203;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:67;POP	%RBX;
+0x2204;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:67;POP	%RBP;
+0x2205;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:67;POP	%R12;
+0x2207;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:67;POP	%R13;
+0x2209;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:67;POP	%R14;
+0x220b;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:67;POP	%R15;
+0x220d;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:67;RET;
+0x220e;/home/sofiane/AOC/tp-rendu/AOC/kernel.c:67;RET;
+0x220f;:0;NOP;

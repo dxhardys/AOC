@@ -1,0 +1,50 @@
+{
+  "__fct":
+    {
+      "loops":
+        {
+          "_7":
+            {
+              "_8":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/sofiane/AOC/tp-rendu/AOC/kernel.c",
+                        "regions":
+                          [
+                            [
+                            5,
+                            5,
+                            ],
+                            [
+                            59,
+                            63,
+                            ],
+                          ],
+                      },
+                    ],
+                  "src": "kernel.c:5-63",
+                },
+              "src_regions":
+                [
+                  {
+                    "path": "/home/sofiane/AOC/tp-rendu/AOC/kernel.c",
+                    "regions":
+                      [
+                        [
+                        5,
+                        5,
+                        ],
+                        [
+                        56,
+                        63,
+                        ],
+                      ],
+                  },
+                ],
+              "src": "kernel.c:5-63",
+            },
+        },
+    },
+}

@@ -134,38 +134,37 @@ if (obj) {
 </script>
 <button id="button_toggle_loop_index" onclick="toggle_loop_index();" type="button" style="margin-bottom: 10px;margin-right: 10px;cursor:pointer;">Show Innermost Profile</button><div class="_fixed_box" ><h3 class="_header">Expert Summary</h3>
 <div class="_content"><div class="_div_table" ><div class="_accordion_box" ><h3 id="_accordion_header_1" class="_header" onclick="_click_accordion_header(this)" ><span class="_accordion_box_button">&#x25BC;</span>Colums Filter<span class="tooltip-maqao-button help-maqao" title="" tooltip_id="0" ></span></h3><div id="_accordion_content_1" class="_content"><div style="max-height:165px;"><form>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt4" onclick="click_table_menu('_table16_opt4', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="1" >Source Function</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt5" onclick="click_table_menu('_table16_opt5', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="2" >Level</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt6" onclick="click_table_menu('_table16_opt6', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="3" >Max Time Over Threads (s)</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt7" onclick="click_table_menu('_table16_opt7', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="4" >Time w.r.t. Wall Time (s)</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt8" onclick="click_table_menu('_table16_opt8', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="5" >Coverage (% app. time)</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt9" onclick="click_table_menu('_table16_opt9', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="6" >Speedup if no scalar integer</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt10" onclick="click_table_menu('_table16_opt10', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="7" >Speedup if FP arith vectorized</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt11" onclick="click_table_menu('_table16_opt11', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="8" >Speedup if fully vectorized</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt12" onclick="click_table_menu('_table16_opt12', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="9" >Speedup if FP only</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt13" onclick="click_table_menu('_table16_opt13', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="10" >Number of paths</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt14" onclick="click_table_menu('_table16_opt14', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="11" >Vectorization Ratio (%)</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt15" onclick="click_table_menu('_table16_opt15', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="12" >Vector Length Use (%)</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt16" onclick="click_table_menu('_table16_opt16', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="13" >CQA cycles</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt17" onclick="click_table_menu('_table16_opt17', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="14" >CQA cycles if no scalar integer</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt18" onclick="click_table_menu('_table16_opt18', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="15" >CQA cycles if FP arith vectorized</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt19" onclick="click_table_menu('_table16_opt19', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="16" >CQA cycles if fully vectorized</span></span>
-<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table16_opt20" onclick="click_table_menu('_table16_opt20', '_table16_opt_all', 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="17" >CQA cycles if FP only</span></span>
-<span style='white-space:nowrap;'><input class="input_check_table_menu" type="button" id="_table16_opt_all" onclick="set_all_table_menu(this, 'list_opts_table16')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" value="Select all"></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt4" onclick="click_table_menu('_table7_opt4', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="1" >Source Function</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt5" onclick="click_table_menu('_table7_opt5', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="2" >Level</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt6" onclick="click_table_menu('_table7_opt6', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="3" >Max Time Over Threads (s)</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt7" onclick="click_table_menu('_table7_opt7', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="4" >Time w.r.t. Wall Time (s)</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt8" onclick="click_table_menu('_table7_opt8', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="5" >Coverage (% app. time)</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt9" onclick="click_table_menu('_table7_opt9', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="6" >Speedup if no scalar integer</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt10" onclick="click_table_menu('_table7_opt10', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="7" >Speedup if FP arith vectorized</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt11" onclick="click_table_menu('_table7_opt11', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="8" >Speedup if fully vectorized</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt12" onclick="click_table_menu('_table7_opt12', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="9" >Speedup if FP only</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt13" onclick="click_table_menu('_table7_opt13', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="10" >Number of paths</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt14" onclick="click_table_menu('_table7_opt14', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="11" >Vectorization Ratio (%)</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt15" onclick="click_table_menu('_table7_opt15', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="12" >Vector Length Use (%)</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt16" onclick="click_table_menu('_table7_opt16', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="13" >CQA cycles</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt17" onclick="click_table_menu('_table7_opt17', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="14" >CQA cycles if no scalar integer</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt18" onclick="click_table_menu('_table7_opt18', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="15" >CQA cycles if FP arith vectorized</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt19" onclick="click_table_menu('_table7_opt19', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="16" >CQA cycles if fully vectorized</span></span>
+<span style="white-space:nowrap;"><input class="input_check_table_menu" type="checkbox" id="_table7_opt20" onclick="click_table_menu('_table7_opt20', '_table7_opt_all', 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" checked ><span class="tooltip-maqao" title="" tooltip_id="17" >CQA cycles if FP only</span></span>
+<span style='white-space:nowrap;'><input class="input_check_table_menu" type="button" id="_table7_opt_all" onclick="set_all_table_menu(this, 'list_opts_table7')" style="margin-left: 30px;vertical-align: middle;cursor:pointer;" value="Select all"></span>
 </form></div>
 </div></div><div style="overflow:auto;">
-<table id="_tree_table_16" class="_tree_table"><tr><th class="_freezed_row  _left  tooltip-maqao" title="" tooltip_id="18">ID</th><th class="_freezed_row  tooltip-maqao" title="" tooltip_id="19">Module</th><th class="_freezed_row  tooltip-maqao" title="" tooltip_id="20">Source Location</th><th class="_freezed_row  _table16_opt4 tooltip-maqao" title="" tooltip_id="21">Source Function</th><th class="_freezed_row  _table16_opt5 tooltip-maqao" title="" tooltip_id="22">Level</th><th class="_freezed_row  _table16_opt6 tooltip-maqao" title="" tooltip_id="23">Max Time Over Threads (s)</th><th class="_freezed_row  _table16_opt7 tooltip-maqao" title="" tooltip_id="24">Time w.r.t. Wall Time (s)</th><th class="_freezed_row  _table16_opt8 tooltip-maqao" title="" tooltip_id="25">Coverage (% app. time)</th><th class="_freezed_row  _table16_opt9 tooltip-maqao" title="" tooltip_id="26">Speedup if no scalar integer</th><th class="_freezed_row  _table16_opt10 tooltip-maqao" title="" tooltip_id="27">Speedup if FP arith vectorized</th><th class="_freezed_row  _table16_opt11 tooltip-maqao" title="" tooltip_id="28">Speedup if fully vectorized</th><th class="_freezed_row  _table16_opt12 tooltip-maqao" title="" tooltip_id="29">Speedup if FP only</th><th class="_freezed_row  _table16_opt13 tooltip-maqao" title="" tooltip_id="30">Number of paths</th><th class="_freezed_row  _table16_opt14 tooltip-maqao" title="" tooltip_id="31">Vectorization Ratio (%)</th><th class="_freezed_row  _table16_opt15 tooltip-maqao" title="" tooltip_id="32">Vector Length Use (%)</th><th class="_freezed_row  _table16_opt16 tooltip-maqao" title="" tooltip_id="33">CQA cycles</th><th class="_freezed_row  _table16_opt17 tooltip-maqao" title="" tooltip_id="34">CQA cycles if no scalar integer</th><th class="_freezed_row  _table16_opt18 tooltip-maqao" title="" tooltip_id="35">CQA cycles if FP arith vectorized</th><th class="_freezed_row  _table16_opt19 tooltip-maqao" title="" tooltip_id="36">CQA cycles if fully vectorized</th><th class="_freezed_row  _table16_opt20 tooltip-maqao" title="" tooltip_id="37">CQA cycles if FP only</th></tr>
-<tr id="_tr_16_1"  ondblclick="_action_30(this,1,-1, 'loops/measure_8.html');"  style="cursor:pointer;"><td id="_tr_16_1-1"  data-_i="1" data-_j="1"  class=" _left"  style="white-space: nowrap;" ><span style="margin-right:10px;margin-left:3px;" >&#x25CB;</span>Loop 8</td><td id="_tr_16_1-2"  data-_i="1" data-_j="2"  class=" _centered" >measure</td><td id="_tr_16_1-3"  data-_i="1" data-_j="3"  class=" _centered" >kernel.c:41-45</td><td id="_tr_16_1-4"  data-_i="1" data-_j="4"  class=" _table16_opt4"  style="word-break:break-all;" >kernel</td><td id="_tr_16_1-5"  data-_i="1" data-_j="5"  class=" _centered _table16_opt5" >Innermost</td><td id="_tr_16_1-6"  data-_i="1" data-_j="6"  class=" _centered _table16_opt6" >1.3</td><td id="_tr_16_1-7"  data-_i="1" data-_j="7"  class=" _centered _table16_opt7" >1.3</td><td id="_tr_16_1-8"  data-_i="1" data-_j="8"  class=" _centered _table16_opt8" >51.28</td><td id="_tr_16_1-9"  data-_i="1" data-_j="9"  class=" _centered _table16_opt9" >1.00</td><td id="_tr_16_1-10"  data-_i="1" data-_j="10"  class=" _centered _table16_opt10"  style="background:var(--score_color_acceptable);" >1.80</td><td id="_tr_16_1-11"  data-_i="1" data-_j="11"  class=" _centered _table16_opt11"  style="background:var(--score_color_medium);" >5.40</td><td id="_tr_16_1-12"  data-_i="1" data-_j="12"  class=" _centered _table16_opt12" >1.04</td><td id="_tr_16_1-13"  data-_i="1" data-_j="13"  class=" _centered _table16_opt13" >3</td><td id="_tr_16_1-14"  data-_i="1" data-_j="14"  class=" _centered _table16_opt14"  style="background:var(--score_color_bad);" >19.57</td><td id="_tr_16_1-15"  data-_i="1" data-_j="15"  class=" _centered _table16_opt15"  style="background:var(--score_color_bad);" >21.63</td><td id="_tr_16_1-16"  data-_i="1" data-_j="16"  class=" _centered _table16_opt16" >3.11</td><td id="_tr_16_1-17"  data-_i="1" data-_j="17"  class=" _centered _table16_opt17" >3.11</td><td id="_tr_16_1-18"  data-_i="1" data-_j="18"  class=" _centered _table16_opt18" >1.73</td><td id="_tr_16_1-19"  data-_i="1" data-_j="19"  class=" _centered _table16_opt19" >0.58</td><td id="_tr_16_1-20"  data-_i="1" data-_j="20"  class=" _centered _table16_opt20" >3.00</td></tr>
-<tr id="_tr_16_2"  ondblclick="_action_30(this,2,-1, 'loops/measure_7.html');"  style="cursor:pointer;"><td id="_tr_16_2-1"  data-_i="2" data-_j="1"  class=" _left"  style="white-space: nowrap;" ><span style="margin-right:10px;margin-left:3px;" >&#x25CB;</span>Loop 7</td><td id="_tr_16_2-2"  data-_i="2" data-_j="2"  class=" _centered" >measure</td><td id="_tr_16_2-3"  data-_i="2" data-_j="3"  class=" _centered" >kernel.c:38-41</td><td id="_tr_16_2-4"  data-_i="2" data-_j="4"  class=" _table16_opt4"  style="word-break:break-all;" >kernel</td><td id="_tr_16_2-5"  data-_i="2" data-_j="5"  class=" _centered _table16_opt5" >Outermost</td><td id="_tr_16_2-6"  data-_i="2" data-_j="6"  class=" _centered _table16_opt6" >0.01</td><td id="_tr_16_2-7"  data-_i="2" data-_j="7"  class=" _centered _table16_opt7" >0.01</td><td id="_tr_16_2-8"  data-_i="2" data-_j="8"  class=" _centered _table16_opt8" >0.39</td><td id="_tr_16_2-9"  data-_i="2" data-_j="9"  class=" _centered _table16_opt9" >1.00</td><td id="_tr_16_2-10"  data-_i="2" data-_j="10"  class=" _centered _table16_opt10" >1.00</td><td id="_tr_16_2-11"  data-_i="2" data-_j="11"  class=" _centered _table16_opt11"  style="background:var(--score_color_medium);" >8.00</td><td id="_tr_16_2-12"  data-_i="2" data-_j="12"  class=" _centered _table16_opt12" >1.00</td><td id="_tr_16_2-13"  data-_i="2" data-_j="13"  class=" _centered _table16_opt13" >3</td><td id="_tr_16_2-14"  data-_i="2" data-_j="14"  class=" _centered _table16_opt14"  style="background:var(--score_color_bad);" >0.00</td><td id="_tr_16_2-15"  data-_i="2" data-_j="15"  class=" _centered _table16_opt15"  style="background:var(--score_color_bad);" >12.50</td><td id="_tr_16_2-16"  data-_i="2" data-_j="16"  class=" _centered _table16_opt16" >1.00</td><td id="_tr_16_2-17"  data-_i="2" data-_j="17"  class=" _centered _table16_opt17" >1.00</td><td id="_tr_16_2-18"  data-_i="2" data-_j="18"  class=" _centered _table16_opt18" >1.00</td><td id="_tr_16_2-19"  data-_i="2" data-_j="19"  class=" _centered _table16_opt19" >0.13</td><td id="_tr_16_2-20"  data-_i="2" data-_j="20"  class=" _centered _table16_opt20" >1.00</td></tr>
+<table id="_tree_table_7" class="_tree_table"><tr><th class="_freezed_row  _left  tooltip-maqao" title="" tooltip_id="18">ID</th><th class="_freezed_row  tooltip-maqao" title="" tooltip_id="19">Module</th><th class="_freezed_row  tooltip-maqao" title="" tooltip_id="20">Source Location</th><th class="_freezed_row  _table7_opt4 tooltip-maqao" title="" tooltip_id="21">Source Function</th><th class="_freezed_row  _table7_opt5 tooltip-maqao" title="" tooltip_id="22">Level</th><th class="_freezed_row  _table7_opt6 tooltip-maqao" title="" tooltip_id="23">Max Time Over Threads (s)</th><th class="_freezed_row  _table7_opt7 tooltip-maqao" title="" tooltip_id="24">Time w.r.t. Wall Time (s)</th><th class="_freezed_row  _table7_opt8 tooltip-maqao" title="" tooltip_id="25">Coverage (% app. time)</th><th class="_freezed_row  _table7_opt9 tooltip-maqao" title="" tooltip_id="26">Speedup if no scalar integer</th><th class="_freezed_row  _table7_opt10 tooltip-maqao" title="" tooltip_id="27">Speedup if FP arith vectorized</th><th class="_freezed_row  _table7_opt11 tooltip-maqao" title="" tooltip_id="28">Speedup if fully vectorized</th><th class="_freezed_row  _table7_opt12 tooltip-maqao" title="" tooltip_id="29">Speedup if FP only</th><th class="_freezed_row  _table7_opt13 tooltip-maqao" title="" tooltip_id="30">Number of paths</th><th class="_freezed_row  _table7_opt14 tooltip-maqao" title="" tooltip_id="31">Vectorization Ratio (%)</th><th class="_freezed_row  _table7_opt15 tooltip-maqao" title="" tooltip_id="32">Vector Length Use (%)</th><th class="_freezed_row  _table7_opt16 tooltip-maqao" title="" tooltip_id="33">CQA cycles</th><th class="_freezed_row  _table7_opt17 tooltip-maqao" title="" tooltip_id="34">CQA cycles if no scalar integer</th><th class="_freezed_row  _table7_opt18 tooltip-maqao" title="" tooltip_id="35">CQA cycles if FP arith vectorized</th><th class="_freezed_row  _table7_opt19 tooltip-maqao" title="" tooltip_id="36">CQA cycles if fully vectorized</th><th class="_freezed_row  _table7_opt20 tooltip-maqao" title="" tooltip_id="37">CQA cycles if FP only</th></tr>
+<tr id="_tr_7_1"  ondblclick="_action_25(this,1,-1, 'loops/measure_8.html');"  style="cursor:pointer;"><td id="_tr_7_1-1"  data-_i="1" data-_j="1"  class=" _left"  style="white-space: nowrap;" ><span style="margin-right:10px;margin-left:3px;" >&#x25CB;</span>Loop 8</td><td id="_tr_7_1-2"  data-_i="1" data-_j="2"  class=" _centered" >measure</td><td id="_tr_7_1-3"  data-_i="1" data-_j="3"  class=" _centered" >kernel.c:13-13,kernel.c:59-63</td><td id="_tr_7_1-4"  data-_i="1" data-_j="4"  class=" _table7_opt4"  style="word-break:break-all;" >kernel</td><td id="_tr_7_1-5"  data-_i="1" data-_j="5"  class=" _centered _table7_opt5" >Innermost</td><td id="_tr_7_1-6"  data-_i="1" data-_j="6"  class=" _centered _table7_opt6" >3.75</td><td id="_tr_7_1-7"  data-_i="1" data-_j="7"  class=" _centered _table7_opt7" >3.75</td><td id="_tr_7_1-8"  data-_i="1" data-_j="8"  class=" _centered _table7_opt8" >100</td><td id="_tr_7_1-9"  data-_i="1" data-_j="9"  class=" _centered _table7_opt9" >1.01</td><td id="_tr_7_1-10"  data-_i="1" data-_j="10"  class=" _centered _table7_opt10"  style="background:var(--score_color_medium);" >2.16</td><td id="_tr_7_1-11"  data-_i="1" data-_j="11"  class=" _centered _table7_opt11"  style="background:var(--score_color_medium);" >8.00</td><td id="_tr_7_1-12"  data-_i="1" data-_j="12"  class=" _centered _table7_opt12" >1.02</td><td id="_tr_7_1-13"  data-_i="1" data-_j="13"  class=" _centered _table7_opt13" >3</td><td id="_tr_7_1-14"  data-_i="1" data-_j="14"  class=" _centered _table7_opt14"  style="background:var(--score_color_bad);" >0.00</td><td id="_tr_7_1-15"  data-_i="1" data-_j="15"  class=" _centered _table7_opt15"  style="background:var(--score_color_bad);" >14.34</td><td id="_tr_7_1-16"  data-_i="1" data-_j="16"  class=" _centered _table7_opt16" >5.11</td><td id="_tr_7_1-17"  data-_i="1" data-_j="17"  class=" _centered _table7_opt17" >5.06</td><td id="_tr_7_1-18"  data-_i="1" data-_j="18"  class=" _centered _table7_opt18" >2.36</td><td id="_tr_7_1-19"  data-_i="1" data-_j="19"  class=" _centered _table7_opt19" >0.64</td><td id="_tr_7_1-20"  data-_i="1" data-_j="20"  class=" _centered _table7_opt20" >5.00</td></tr>
 </table></div>
 </div>
 <script>
-function _action_30 (obj, i, j, p){open(""+p+"");}
+function _action_25 (obj, i, j, p){open(""+p+"");}
 </script>
 <script>
-var list_opts_table16 = ['_table16_opt4','_table16_opt5','_table16_opt6','_table16_opt7','_table16_opt8','_table16_opt9','_table16_opt10','_table16_opt11','_table16_opt12','_table16_opt13','_table16_opt14','_table16_opt15','_table16_opt16','_table16_opt17','_table16_opt18','_table16_opt19','_table16_opt20',];
-function __reset_checkboxes_table16 () {
-  var displayed_columns = [{id:"_table16_opt1", value:true}, {id:"_table16_opt2", value:true}, {id:"_table16_opt3", value:true}, {id:"_table16_opt4", value:true}, {id:"_table16_opt5", value:true}, {id:"_table16_opt6", value:true}, {id:"_table16_opt7", value:true}, {id:"_table16_opt8", value:true}, {id:"_table16_opt9", value:true}, {id:"_table16_opt10", value:true}, {id:"_table16_opt11", value:true}, {id:"_table16_opt12", value:true}, {id:"_table16_opt13", value:true}, {id:"_table16_opt14", value:true}, {id:"_table16_opt15", value:true}, {id:"_table16_opt16", value:true}, {id:"_table16_opt17", value:true}, {id:"_table16_opt18", value:true}, {id:"_table16_opt19", value:true}, {id:"_table16_opt20", value:true}];
+var list_opts_table7 = ['_table7_opt4','_table7_opt5','_table7_opt6','_table7_opt7','_table7_opt8','_table7_opt9','_table7_opt10','_table7_opt11','_table7_opt12','_table7_opt13','_table7_opt14','_table7_opt15','_table7_opt16','_table7_opt17','_table7_opt18','_table7_opt19','_table7_opt20',];
+function __reset_checkboxes_table7 () {
+  var displayed_columns = [{id:"_table7_opt1", value:true}, {id:"_table7_opt2", value:true}, {id:"_table7_opt3", value:true}, {id:"_table7_opt4", value:true}, {id:"_table7_opt5", value:true}, {id:"_table7_opt6", value:true}, {id:"_table7_opt7", value:true}, {id:"_table7_opt8", value:true}, {id:"_table7_opt9", value:true}, {id:"_table7_opt10", value:true}, {id:"_table7_opt11", value:true}, {id:"_table7_opt12", value:true}, {id:"_table7_opt13", value:true}, {id:"_table7_opt14", value:true}, {id:"_table7_opt15", value:true}, {id:"_table7_opt16", value:true}, {id:"_table7_opt17", value:true}, {id:"_table7_opt18", value:true}, {id:"_table7_opt19", value:true}, {id:"_table7_opt20", value:true}];
   // Update initial state using localStorage
   for (var i = 0; i < displayed_columns.length; i++) {
     var dcol = displayed_columns[i];
@@ -184,7 +183,7 @@ function __reset_checkboxes_table16 () {
     }
   }
   // Update table
-  var table = document.getElementById("_tree_table_16");
+  var table = document.getElementById("_tree_table_7");
   for (let i in table.rows) {
     let row = table.rows[i]
     for (let j in row.cells) {
@@ -200,18 +199,18 @@ function __reset_checkboxes_table16 () {
     }
   }
   {
-    var value = localStorage.getItem("_table16_opt_all");
+    var value = localStorage.getItem("_table7_opt_all");
     if (value) {
-      var obj = document.getElementById ("_table16_opt_all");
+      var obj = document.getElementById ("_table7_opt_all");
       if (obj) {
         obj.value = value;
       }
     }
   }
-  _check_all_checkbox_ ("_table16_opt_all", "list_opts_table16");
+  _check_all_checkbox_ ("_table7_opt_all", "list_opts_table7");
 };
 addLoadEvent(function(){
-  __reset_checkboxes_table16 ();
+  __reset_checkboxes_table7 ();
 });
 </script>
 <style>
@@ -228,7 +227,7 @@ function getQueryStringArray(){
 }
 
 addLoadEvent(function(){
-  var id = "_tree_table_16";
+  var id = "_tree_table_7";
   var table_asm = document.getElementById(id);
   var tab = [];
   for (var i = 0, row; row = table_asm.rows[i]; i++) {
@@ -263,10 +262,10 @@ addLoadEvent(function(){
       else if (cell.textContent == "Source") {
         found = true;
       }
-      var e = document.getElementById("_table16_opt" + (i + 1));
+      var e = document.getElementById("_table7_opt" + (i + 1));
       if (e != null) {
           e.checked = found;
-          click_table_menu("_table16_opt" + (i + 1), "_table16_opt_all", "list_opts_table16");
+          click_table_menu("_table7_opt" + (i + 1), "_table7_opt_all", "list_opts_table7");
       }
     }
   }
@@ -298,10 +297,10 @@ addLoadEvent(function(){
       else if (cell.textContent == "Source") {
         found = true;
       }
-      var e = document.getElementById("_table16_opt" + (i + 1));
+      var e = document.getElementById("_table7_opt" + (i + 1));
       if (e != null) {
           e.checked = found;
-          click_table_menu("_table16_opt" + (i + 1), "_table16_opt_all", "list_opts_table16");
+          click_table_menu("_table7_opt" + (i + 1), "_table7_opt_all", "list_opts_table7");
       }
     }
   }
@@ -313,7 +312,7 @@ function getPos(el) {
   return {x: lx,y: ly};
 }
 function toggle_loop_index() {
-  var table = document.getElementById("_tree_table_16");
+  var table = document.getElementById("_tree_table_7");
   var last_level;
   var button = document.getElementById("button_toggle_loop_index");
   if (button.innerHTML.localeCompare ("Show Full Profile") == 0) {
@@ -338,7 +337,7 @@ function toggle_loop_index() {
 }
 function _onresize () {
   __maqao_legacy_onresize ();
-  var d = document.getElementById ("_tree_table_16").parentNode;
+  var d = document.getElementById ("_tree_table_7").parentNode;
   d.style.maxHeight = (window.innerHeight - getPos (d).y - 20)+"px";
 }
 window.onresize = _onresize;

@@ -1,0 +1,12 @@
+function_id;module;function_name;source_info;time_p;time_s;time_s_min;time_s_avg;time_s_max;cov_deviation;time_deviation;nb_threads;cats;label_name;flops;
+7;measure;kernel._omp_fn.0;kernel.c:13-13,kernel.c:121-135;83.07;13.81;13.53;13.74;14.24;2.1276016235352;0.22606801986694;8;"100,0,0,0,0,0,0,0,0,0";kernel._omp_fn.0;;
+274;libgomp.so.1.0.0;omp_get_num_procs;;15.1;2.51;0.89;2.5;2.91;3.9354856014252;0.66176706552505;8;"0,0,100,0,0,0,0,0,0,0";omp_get_num_procs;;
+258;libgomp.so.1.0.0;omp_fulfill_event;;1.61;0.27;0.14;0.27;0.86;1.5087239742279;0.24234633147717;8;"0,0,100,0,0,0,0,0,0,0";omp_fulfill_event;;
+223;libgomp.so.1.0.0;omp_get_num_threads;;0.11;0.02;0.01;0.02;0.04;0.051007054746151;0.0083808172494173;7;"0,0,100,0,0,0,0,0,0,0";omp_get_num_threads;;
+241;libgomp.so.1.0.0;GOMP_single_copy_end;;0.07;0.01;0.09;0.09;0.09;0;0;1;"0,0,100,0,0,0,0,0,0,0";GOMP_single_copy_end;;
+216;libgomp.so.1.0.0;GOMP_doacross_ull_wait;;0.02;0;0.03;0.03;0.03;0;0;1;"0,0,100,0,0,0,0,0,0,0";GOMP_doacross_ull_wait;;
+219;libgomp.so.1.0.0;GOMP_parallel;;0.01;0;0.01;0.01;0.01;0;0;1;"0,0,100,0,0,0,0,0,0,0";GOMP_parallel;;
+8;measure;kernel;kernel.c:118-121,kernel.c:137-137;0.01;0;0.01;0.01;0.01;0;0;1;"100,0,0,0,0,0,0,0,0,0";kernel;;
+1;measure;main;stdlib.h:364-364,driver.c:19-20,driver.c:27-28,driver.c:43-59,driver.c:65-71,driver.c:78-128,stdio2.h:105-105,stdio2.h:112-112;0.01;0;0.01;0.01;0.01;0;0;1;"100,0,0,0,0,0,0,0,0,0";main;;
+224;libgomp.so.1.0.0;omp_get_thread_num;;0;0;0;0;0;0;0;1;"0,0,100,0,0,0,0,0,0,0";omp_get_thread_num;;
+-1;measure;unknown_function;;0;0;0;0;0;0;0;1;"100,0,0,0,0,0,0,0,0,0";Unknown function;;

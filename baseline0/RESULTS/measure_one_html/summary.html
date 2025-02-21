@@ -132,13 +132,13 @@ if (obj) {
   }
 }
 </script>
-<h3 style="background-color: var(--header_background);color: var(--header_font);margin: 0px;padding: 5px 0px 5px 10px;border: 1px solid var(--table_border);border-radius: 5px;" class="_header">measure - 2025-02-20 10:43:26 - MAQAO 2.20.1</h3>
+<h3 style="background-color: var(--header_background);color: var(--header_font);margin: 0px;padding: 5px 0px 5px 10px;border: 1px solid var(--table_border);border-radius: 5px;" class="_header">measure - 2025-02-20 11:31:34 - MAQAO 2.20.1</h3>
 <p>Help is available by moving the cursor above any <img src="images/help_icon_20.png" style="vertical-align: middle;background-color:var(--fixed_box_header_background);"></img> symbol or by checking <a href="https://maqao.exascale-computing.eu/documentation.html">MAQAO website</a>.</p>
 <div class="_accordion_box" style="margin-top:2px;"><h3 class="_header" onclick="_click_accordion_header(this)"><span class="_accordion_box_button">&#x25BC;</span>Stylizer<span class="tooltip-maqao-button help-maqao" title="" tooltip_id="0"></span><span class="_report_header_color_box" style="background-color:#FF3333;"><span style="background-color:#66cc00;display:inline-block;width:49.333333333333%;">&nbsp;</span><span style="background-color:#ffa64d;display:inline-block;width:4%;">&nbsp;</span></span></h3><div class="_content">
 <div class="row">
   <div class="column">
     <div class="report_entry" style="background-color: #ff4d4d;">
-      <p class="short">[ 0 / 4 ] Application profile is too short (2.55 s)</p>
+      <p class="short">[ 0 / 4 ] Application profile is too short (3.75 s)</p>
       <p class="long">If the overall application profiling time is less than 10 seconds, many of the measurements at function or loop level will very likely be under the measurement quality threshold (0,1 seconds).
 Rerun to increase runtime duration: for example use a larger dataset or include a repetition loop.</p>
     </div>
@@ -164,19 +164,19 @@ Rerun to increase runtime duration: for example use a larger dataset or include 
   </div>
 </div>
 </div>
-<div class="_accordion_box" style="margin-top:2px;"><h3 class="_header" onclick="_click_accordion_header(this)"><span class="_accordion_box_button">&#x25BC;</span>Strategizer<span class="tooltip-maqao-button help-maqao" title="" tooltip_id="1"></span><span class="_report_header_color_box" style="background-color:#FF3333;"><span style="background-color:#66cc00;display:inline-block;width:90.909090909091%;">&nbsp;</span><span style="background-color:#ffa64d;display:inline-block;width:0%;">&nbsp;</span></span></h3><div class="_content">
+<div class="_accordion_box collapsed" style="margin-top:2px;"><h3 class="_header collapsed" onclick="_click_accordion_header(this)"><span class="_accordion_box_button">&#x25B6;</span>Strategizer<span class="tooltip-maqao-button help-maqao" title="" tooltip_id="1"></span><span class="_report_header_color_box" style="background-color:#FF3333;"><span style="background-color:#66cc00;display:inline-block;width:100%;">&nbsp;</span><span style="background-color:#ffa64d;display:inline-block;width:0%;">&nbsp;</span></span></h3><div class="_content collapsed">
 <div class="row">
   <div class="column">
     <div class="report_entry" style="background-color: #8cd98c;">
-      <p class="short">[ 4 / 4 ] Enough time of the experiment time spent in analyzed loops (51.67%)</p>
+      <p class="short">[ 4 / 4 ] Enough time of the experiment time spent in analyzed loops (100.00%)</p>
       <p class="long">If the time spent in analyzed loops is less than 30%, standard loop optimizations will have a limited impact on application performances.</p>
     </div>
     <div class="report_entry" style="background-color: #8cd98c;">
       <p class="short">[ 4 / 4 ] Loop profile is not flat</p>
-      <p class="long">At least one loop coverage is greater than 4% (51.28%), representing an hotspot for the application</p>
+      <p class="long">At least one loop coverage is greater than 4% (100.00%), representing an hotspot for the application</p>
     </div>
     <div class="report_entry" style="background-color: #8cd98c;">
-      <p class="short">[ 4 / 4 ] Enough time of the experiment time spent in analyzed innermost loops (51.28%)</p>
+      <p class="short">[ 4 / 4 ] Enough time of the experiment time spent in analyzed innermost loops (100.00%)</p>
       <p class="long">If the time spent in analyzed innermost loops is less than 15%, standard innermost loop optimizations such as vectorisation will have a limited impact on application performances.</p>
     </div>
     <div class="report_entry" style="background-color: #8cd98c;">
@@ -186,12 +186,12 @@ Rerun to increase runtime duration: for example use a larger dataset or include 
   </div>
   <div class="column">
     <div class="report_entry" style="background-color: #8cd98c;">
-      <p class="short">[ 3 / 3 ] Cumulative Outermost/In between loops coverage (0.39%) lower than cumulative innermost loop coverage (51.28%)</p>
+      <p class="short">[ 3 / 3 ] Cumulative Outermost/In between loops coverage (0.00%) lower than cumulative innermost loop coverage (100%)</p>
       <p class="long">Having cumulative Outermost/In between loops coverage greater than cumulative innermost loop coverage will make loop optimization more complex</p>
     </div>
-    <div class="report_entry" style="background-color: #ff4d4d;">
-      <p class="short">[ 0 / 2 ] More than 10% (42.04%) is spend in Libm/SVML (special functions)</p>
-      <p class="long">The application is heavily using special math functions (powers, exp, sin etc…) proper library version have to be used. Exact accuracy needs have to be evaluated. Perform input value profiling, first count how many different input values.</p>
+    <div class="report_entry" style="background-color: #8cd98c;">
+      <p class="short">[ 2 / 2 ] Less than 10% (0%) is spend in Libm/SVML (special functions)</p>
+      <p class="long"></p>
     </div>
     <div class="report_entry" style="background-color: #8cd98c;">
       <p class="short">[ 2 / 2 ] Less than 10% (0%) is spend in BLAS2 operations</p>
@@ -202,11 +202,8 @@ Rerun to increase runtime duration: for example use a larger dataset or include 
 </div>
 </div>
 <div class="_accordion_box" ><h3 id="_accordion_header_1" class="_header" onclick="_click_accordion_header(this)" ><span class="_accordion_box_button">&#x25BC;</span>Optimizer<span class="tooltip-maqao-button help-maqao" title="" tooltip_id="2" ></span></h3><div id="_accordion_content_1" class="_content"><div class="_div_table" ><table id="_tree_table_1" class="_tree_table"><tr><th class="_freezed_row  _left  tooltip-maqao">Loop ID</th><th class="_freezed_row  tooltip-maqao" title="" tooltip_id="3">Module</th><th class="_freezed_row  tooltip-maqao">Analysis</th><th class="_freezed_row  tooltip-maqao" title="" tooltip_id="4">Penalty Score</th><th class="_freezed_row  tooltip-maqao" title="" tooltip_id="5">Coverage (%)</th><th class="_freezed_row  tooltip-maqao" title="" tooltip_id="6">Vectorization<br>Ratio (%)</th><th class="_freezed_row  tooltip-maqao" title="" tooltip_id="7">Vector Length<br>Use (%)</th></tr>
-<tr id="_tr_1_1"  ondblclick="_action_5(this,1,-1, 'measure_8');"  style="cursor:pointer;"><td id="_tr_1_1-1"  data-_i="1" data-_j="1"  class=" _left"  style="min-width:80px;background:var(--accordion_box_header_background_opened);" ><span onclick="_click_tree(this)" style="margin-right:5px;margin-left:0px;cursor:pointer;" >&#x25BA;</span>8<span onclick="_click_expand(this)" class="span_expand">&#43;</span></td><td id="_tr_1_1-2"  data-_i="1" data-_j="2"  class=" _centered"  style="background:var(--accordion_box_header_background_opened);" >measure</td><td id="_tr_1_1-3"  data-_i="1" data-_j="3"  style="background:var(--accordion_box_header_background_opened);" >Partial or unexisting vectorization - Use pragma to force vectorization and check potential dependencies between array access.</td><td id="_tr_1_1-4"  data-_i="1" data-_j="4"  class=" _centered"  style="background:var(--accordion_box_header_background_opened);" >3</td><td id="_tr_1_1-5"  data-_i="1" data-_j="5"  class=" _centered"  style="background:var(--accordion_box_header_background_opened);" >51.28</td><td id="_tr_1_1-6"  data-_i="1" data-_j="6"  class=" _centered"  style="background:#FF3333" >19.57</td><td id="_tr_1_1-7"  data-_i="1" data-_j="7"  class=" _centered"  style="background:#FF3333" >21.63</td></tr>
+<tr id="_tr_1_1"  ondblclick="_action_5(this,1,-1, 'measure_8');"  style="cursor:pointer;"><td id="_tr_1_1-1"  data-_i="1" data-_j="1"  class=" _left"  style="min-width:80px;background:var(--accordion_box_header_background_opened);" ><span onclick="_click_tree(this)" style="margin-right:5px;margin-left:0px;cursor:pointer;" >&#x25BA;</span>8<span onclick="_click_expand(this)" class="span_expand">&#43;</span></td><td id="_tr_1_1-2"  data-_i="1" data-_j="2"  class=" _centered"  style="background:var(--accordion_box_header_background_opened);" >measure</td><td id="_tr_1_1-3"  data-_i="1" data-_j="3"  style="background:var(--accordion_box_header_background_opened);" >Partial or unexisting vectorization - Use pragma to force vectorization and check potential dependencies between array access.</td><td id="_tr_1_1-4"  data-_i="1" data-_j="4"  class=" _centered"  style="background:var(--accordion_box_header_background_opened);" >3</td><td id="_tr_1_1-5"  data-_i="1" data-_j="5"  class=" _centered"  style="background:var(--accordion_box_header_background_opened);" >100</td><td id="_tr_1_1-6"  data-_i="1" data-_j="6"  class=" _centered"  style="background:#FF3333" >0</td><td id="_tr_1_1-7"  data-_i="1" data-_j="7"  class=" _centered"  style="background:#FF3333" >14.34</td></tr>
 <tr class="_tree_hidden _tr_1_1"  id="_tr_1_1_1" ><td id="_tr_1_1_1-1"  data-_i="2" data-_j="1"  class=" _left"  style="min-width:80px;" ><span style="margin-right:10px;margin-left:18px;" >&#x25CB;</span></td><td id="_tr_1_1_1-2"  data-_i="2" data-_j="2"  class=" _centered" ></td><td id="_tr_1_1_1-3"  data-_i="2" data-_j="3" >[SA] Several paths (3 paths) - Simplify control structure or force the compiler to use masked instructions. There are 3 issues ( = paths) costing 1 point each.</td><td id="_tr_1_1_1-4"  data-_i="2" data-_j="4"  class=" _centered" >3</td><td id="_tr_1_1_1-5"  data-_i="2" data-_j="5"  class=" _centered" ></td><td id="_tr_1_1_1-6"  data-_i="2" data-_j="6"  class=" _centered" ></td><td id="_tr_1_1_1-7"  data-_i="2" data-_j="7"  class=" _centered" ></td></tr>
-<tr id="_tr_1_2"  ondblclick="_action_5(this,3,-1, 'measure_7');"  style="cursor:pointer;"><td id="_tr_1_2-1"  data-_i="3" data-_j="1"  class=" _left"  style="min-width:80px;background:var(--accordion_box_header_background_opened);" ><span onclick="_click_tree(this)" style="margin-right:5px;margin-left:0px;cursor:pointer;" >&#x25BA;</span>7<span onclick="_click_expand(this)" class="span_expand">&#43;</span></td><td id="_tr_1_2-2"  data-_i="3" data-_j="2"  class=" _centered"  style="background:var(--accordion_box_header_background_opened);" >measure</td><td id="_tr_1_2-3"  data-_i="3" data-_j="3"  style="background:var(--accordion_box_header_background_opened);" >Partial or unexisting vectorization - Use pragma to force vectorization and check potential dependencies between array access.</td><td id="_tr_1_2-4"  data-_i="3" data-_j="4"  class=" _centered"  style="background:var(--accordion_box_header_background_opened);" >5</td><td id="_tr_1_2-5"  data-_i="3" data-_j="5"  class=" _centered"  style="background:var(--accordion_box_header_background_opened);" >0.39</td><td id="_tr_1_2-6"  data-_i="3" data-_j="6"  class=" _centered"  style="background:#FF3333" >0</td><td id="_tr_1_2-7"  data-_i="3" data-_j="7"  class=" _centered"  style="background:#FF3333" >12.5</td></tr>
-<tr class="_tree_hidden _tr_1_2"  id="_tr_1_2_1" ><td id="_tr_1_2_1-1"  data-_i="4" data-_j="1"  class=" _left"  style="min-width:80px;" ><span style="margin-right:10px;margin-left:18px;" >&#x25CB;</span></td><td id="_tr_1_2_1-2"  data-_i="4" data-_j="2"  class=" _centered" ></td><td id="_tr_1_2_1-3"  data-_i="4" data-_j="3" >[SA] Several paths (3 paths) - Simplify control structure or force the compiler to use masked instructions. There are 3 issues ( = paths) costing 1 point each.</td><td id="_tr_1_2_1-4"  data-_i="4" data-_j="4"  class=" _centered" >3</td><td id="_tr_1_2_1-5"  data-_i="4" data-_j="5"  class=" _centered" ></td><td id="_tr_1_2_1-6"  data-_i="4" data-_j="6"  class=" _centered" ></td><td id="_tr_1_2_1-7"  data-_i="4" data-_j="7"  class=" _centered" ></td></tr>
-<tr class="_tree_hidden _tr_1_2"  id="_tr_1_2_2" ><td id="_tr_1_2_2-1"  data-_i="5" data-_j="1"  class=" _left"  style="min-width:80px;" ><span style="margin-right:10px;margin-left:18px;" >&#x25CB;</span></td><td id="_tr_1_2_2-2"  data-_i="5" data-_j="2"  class=" _centered" ></td><td id="_tr_1_2_2-3"  data-_i="5" data-_j="3" >[SA] Non innermost loop (Outermost) - Collapse loop with innermost ones. This issue costs 2 points.</td><td id="_tr_1_2_2-4"  data-_i="5" data-_j="4"  class=" _centered" >2</td><td id="_tr_1_2_2-5"  data-_i="5" data-_j="5"  class=" _centered" ></td><td id="_tr_1_2_2-6"  data-_i="5" data-_j="6"  class=" _centered" ></td><td id="_tr_1_2_2-7"  data-_i="5" data-_j="7"  class=" _centered" ></td></tr>
 </table></div>
 <script>
 function _action_5 (obj, i, j, p){open("loops/"+p+".html");}

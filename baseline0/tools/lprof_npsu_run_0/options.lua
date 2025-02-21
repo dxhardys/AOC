@@ -10,7 +10,7 @@ Table:new({
 	["cpu_list"] = "";
 	["lcore-flow-all"] = false;
 	["stdin_path"] = "";
-	["exe_args"] = " 300 100 5000";
+	["exe_args"] = " 2000 100 5000";
 	["cnt_metrics"] = "";
 	["disable-debug"] = false;
 	["maqao_path"] = "/usr/local/bin/maqao";
@@ -22,7 +22,7 @@ Table:new({
 	["keep_ext_threads"] = false;
 	["cnt_evts_string"] = "";
 	["ref_cycles_rate"] = 0;
-	["exe_path"] = "/home/sofiane/AOC/demo/baseline0/binaries/measure";
+	["exe_path"] = "/home/sofiane/AOC/tp-rendu/AOC/baseline0/binaries/measure";
 	["node_MB_RAM"] = 0;
 	["max_processes"] = 0;
 	["use_OS_timers"] = false;
@@ -35,7 +35,7 @@ Table:new({
 	["backtrace_mode"] = 1;
 	["user_guided"] = -1;
 	["kill_signals"] = "";
-	["experiment_path"] = "/home/sofiane/AOC/demo/baseline0/tools/lprof_npsu_run_0";
+	["experiment_path"] = "/home/sofiane/AOC/tp-rendu/AOC/baseline0/tools/lprof_npsu_run_0";
 	["ign_signals"] = "";
 	["cpu_clock_rate"] = 0;
 	["max_callchain_len"] = 20;

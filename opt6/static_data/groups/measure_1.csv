@@ -1,0 +1,2 @@
+group_size;pattern;opcodes;offsets;addresses;stride_status;stride;memory_status;accessed_memory;accessed_memory_nooverlap;accessed_memory_overlap;span;head;unroll_factor;
+1;L;CMP,;24,;0x1c0a,;Not mono block loop;0;Success;4;4;0;4;0;1;

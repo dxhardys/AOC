@@ -1,0 +1,5 @@
+Node;Process;Thread;System (%);Binary (%);MPI (%);Nb Cycle Events;OMP (%);Others (%);String (%);Memory (%);IO (%);Time (s);Math (%);Pthread (%);
+_ALL;_ALL;_ALL;0;52.38;0;3337;0;0;0;0;0;16.68;47.62;0;
+merry;_ALL;_ALL;0;52.38;0;3337;0;0;0;0;0;16.68;47.62;0;
+merry;18604;_ALL;0;52.38;0;3337;0;0;0;0;0;16.68;47.62;0;
+merry;18604;18604;0;52.38;0;3337;0;0;0;0;0;16.68;47.62;0;

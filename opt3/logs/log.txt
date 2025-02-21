@@ -1,0 +1,6 @@
+********************************************************************************
+MAQAO 2.20.1 - cf6e61a781c49dfcbeaded3d28e83d3212ea2c5e::20240418-162820 || 2024/04/18
+maqao OV -R1 xp=opt3 -- ./measure 2000 100 1000 
+CPY:  [true] ./measure --> /home/sofiane/AOC/tp-rendu/AOC/opt3/binaries/measure
+CMD:   /usr/local/bin/maqao lprof  --xp="/home/sofiane/AOC/tp-rendu/AOC/opt3/tools/lprof_npsu_run_0" --mpi-command=""   -- /home/sofiane/AOC/tp-rendu/AOC/opt3/binaries/measure  2000 100 1000
+CMD:  /usr/local/bin/maqao otter  -input=/home/sofiane/AOC/tp-rendu/AOC/opt3/OTTER/input_manifest.csv -output=/home/sofiane/AOC/tp-rendu/AOC/opt3/OTTER/output_manifest.csv

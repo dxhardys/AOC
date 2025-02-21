@@ -1,0 +1,61 @@
+
+* Info: Selecting the 'perf-low-ppn' engine for node merry
+
+* Info: "ref-cycles" not supported on merry: fallback to "cpu-clock"
+* Info: Process launched (host merry, process 23543)Metarepetition 1/31: running 100 warmup instances and 5000 measure instances
+Metarepetition 2/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 3/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 4/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 5/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 6/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 7/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 8/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 9/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 10/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 11/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 12/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 13/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 14/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 15/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 16/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 17/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 18/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 19/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 20/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 21/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 22/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 23/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 24/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 25/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 26/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 27/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 28/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 29/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 30/31: running 1 warmup instances and 5000 measure instances
+Metarepetition 31/31: running 1 warmup instances and 5000 measure instances
+MIN 307953408 RDTSC-cycles (0.08 per inner-iter)
+MED 326328576 RDTSC-cycles (0.09 per inner-iter)
+AVERAGE STABILITY: 5.97 %
+
+* Info: Process finished (host merry, process 23543)
+* Info: Dumping samples (host merry, process 23543)
+* Info: Dumping source info for callchain nodes (host merry, process 23543)
+* Info: Building/writing metadata (host merry)
+* Info: Finished collect step (host merry, process 23543)
+
+Your experiment path is /home/sofiane/AOC/tp-rendu/AOC/opt4/tools/lprof_npsu_run_0
+
+To display your profiling results:
+######################################################################################################################
+#    LEVEL    |     REPORT     |                                       COMMAND                                       #
+######################################################################################################################
+#  Functions  |  Cluster-wide  |  maqao lprof -df xp=/home/sofiane/AOC/tp-rendu/AOC/opt4/tools/lprof_npsu_run_0      #
+#  Functions  |  Per-node      |  maqao lprof -df -dn xp=/home/sofiane/AOC/tp-rendu/AOC/opt4/tools/lprof_npsu_run_0  #
+#  Functions  |  Per-process   |  maqao lprof -df -dp xp=/home/sofiane/AOC/tp-rendu/AOC/opt4/tools/lprof_npsu_run_0  #
+#  Functions  |  Per-thread    |  maqao lprof -df -dt xp=/home/sofiane/AOC/tp-rendu/AOC/opt4/tools/lprof_npsu_run_0  #
+#  Loops      |  Cluster-wide  |  maqao lprof -dl xp=/home/sofiane/AOC/tp-rendu/AOC/opt4/tools/lprof_npsu_run_0      #
+#  Loops      |  Per-node      |  maqao lprof -dl -dn xp=/home/sofiane/AOC/tp-rendu/AOC/opt4/tools/lprof_npsu_run_0  #
+#  Loops      |  Per-process   |  maqao lprof -dl -dp xp=/home/sofiane/AOC/tp-rendu/AOC/opt4/tools/lprof_npsu_run_0  #
+#  Loops      |  Per-thread    |  maqao lprof -dl -dt xp=/home/sofiane/AOC/tp-rendu/AOC/opt4/tools/lprof_npsu_run_0  #
+######################################################################################################################
+

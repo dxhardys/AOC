@@ -1,0 +1,11 @@
+/home/sofiane/AOC/tp-rendu/AOC/kernel.c: 56 - 63
+--------------------------------------------------------------------------------
+
+56:    for(k=0; k<12; k++){
+57:       // take out const from loop
+58:       const float d_k = d[k] ;
+59:       for(i=0 ; i<n ; i++){
+60:          if(b[i] >= 0.0 && b[i] < 1.0){
+61:            a [i] += exp( b[i] + d_k) / c [i];
+62:          } else if (b[i] >= 1.0) {
+63:             a[i] += (b[i] * d_k) / c[i] ;

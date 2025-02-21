@@ -1,0 +1,837 @@
+address;source_location;insn;indent
+0x11e0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;ENDBR64;
+0x11e4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;PUSH	%R15;
+0x11e6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;PUSH	%R14;
+0x11e8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;PUSH	%R13;
+0x11ea;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;PUSH	%R12;
+0x11ec;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;PUSH	%RBP;
+0x11ed;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;MOV	%RSI,%RBP;
+0x11f0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;PUSH	%RBX;
+0x11f1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;SUB	$0x158,%RSP;
+0x11f8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;MOV	%FS:0x28,%RAX;
+0x1201;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;MOV	%RAX,0x148(%RSP);
+0x1209;/home/sofiane/AOC/tp-rendu/AOC/driver.c:43;XOR	%EAX,%EAX;
+0x120b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:45;CMP	$0x4,%EDI;
+0x120e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:45;JE	1259 <main+0x79>;
+0x1210;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	(%RSI),%RCX;
+0x1213;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	0x3e06(%RIP),%RDI;
+0x121a;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x1def(%RIP),%RDX;
+0x1221;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x1226;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11b0 <.plt.sec@start+0xa0>;
+0x122b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:47;MOV	$0x1,%EAX;
+0x1230;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;MOV	0x148(%RSP),%RDX;
+0x1238;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;SUB	%FS:0x28,%RDX;
+0x1241;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;JNE	2063 <main+0xe83>;
+0x1247;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;ADD	$0x158,%RSP;
+0x124e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;POP	%RBX;
+0x124f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;POP	%RBP;
+0x1250;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;POP	%R12;
+0x1252;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;POP	%R13;
+0x1254;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;POP	%R14;
+0x1256;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;POP	%R15;
+0x1258;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;RET;
+0x1259;/usr/include/stdlib.h:364;MOV	0x8(%RSI),%RDI;
+0x125d;/usr/include/stdlib.h:364;MOV	$0xa,%EDX;
+0x1262;/usr/include/stdlib.h:364;XOR	%ESI,%ESI;
+0x1264;/usr/include/stdlib.h:364;CALL	1170 <.plt.sec@start+0x60>;
+0x1269;/usr/include/stdlib.h:364;MOV	0x10(%RBP),%RDI;
+0x126d;/usr/include/stdlib.h:364;MOV	$0xa,%EDX;
+0x1272;/usr/include/stdlib.h:364;XOR	%ESI,%ESI;
+0x1274;/usr/include/stdlib.h:364;MOV	%RAX,%R12;
+0x1277;/home/sofiane/AOC/tp-rendu/AOC/driver.c:51;MOV	%EAX,%EBX;
+0x1279;/usr/include/stdlib.h:364;CALL	1170 <.plt.sec@start+0x60>;
+0x127e;/usr/include/stdlib.h:364;MOV	0x18(%RBP),%RDI;
+0x1282;/usr/include/stdlib.h:364;MOV	$0xa,%EDX;
+0x1287;/usr/include/stdlib.h:364;XOR	%ESI,%ESI;
+0x1289;/home/sofiane/AOC/tp-rendu/AOC/driver.c:52;MOV	%EAX,0x1c(%RSP);
+0x128d;/usr/include/stdlib.h:364;CALL	1170 <.plt.sec@start+0x60>;
+0x1292;/usr/include/stdlib.h:364;LEA	-0x1(%R12),%EDX;
+0x1297;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;XOR	%ECX,%ECX;
+0x1299;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;LEA	0x50(%RSP),%RDI;
+0x129e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;ADD	$0x1,%RDX;
+0x12a2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:53;MOV	%EAX,0x18(%RSP);
+0x12a6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:65;MOV	%R12D,%EAX;
+0x12a9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:65;LEA	(,%RAX,8),%RSI;
+0x12b1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:65;MOV	%RDX,0x38(%RSP);
+0x12b6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;SAL	$0x2,%RAX;
+0x12ba;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;SAL	$0x3,%RDX;
+0x12be;/home/sofiane/AOC/tp-rendu/AOC/driver.c:65;MOV	%RSI,0x20(%RSP);
+0x12c3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;MOV	%RAX,0x28(%RSP);
+0x12c8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;MOV	%RCX,0x8(%RSP);
+0x12cd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;MOV	%RDI,0x30(%RSP);
+0x12d2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;MOV	%RDX,0x40(%RSP);
+0x12d7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;MOV	%R12,0x48(%RSP);
+0x12dc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;NOPL	(%RAX);
+0x12e0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:59;MOV	0x8(%RSP),%R9;(2) 
+0x12e5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:59;MOV	$0x1,%R8D;(2) 
+0x12eb;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1f,%ECX;(2) 
+0x12f0;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;LEA	0x1d59(%RIP),%RSI;(2) 
+0x12f7;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EDI;(2) 
+0x12fc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:59;TEST	%R9,%R9;(2) 
+0x12ff;/home/sofiane/AOC/tp-rendu/AOC/driver.c:59;LEA	0x1(%R9),%EDX;(2) 
+0x1303;/home/sofiane/AOC/tp-rendu/AOC/driver.c:59;CMOVE	0x1c(%RSP),%R8D;(2) 
+0x1309;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;XOR	%EAX,%EAX;(2) 
+0x130b;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	0x18(%RSP),%R9D;(2) 
+0x1310;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;CALL	1190 <.plt.sec@start+0x80>;(2) 
+0x1315;/home/sofiane/AOC/tp-rendu/AOC/driver.c:65;MOV	0x20(%RSP),%RDI;(2) 
+0x131a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:65;CALL	1180 <.plt.sec@start+0x70>;(2) 
+0x131f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;MOV	0x28(%RSP),%R14;(2) 
+0x1324;/home/sofiane/AOC/tp-rendu/AOC/driver.c:65;MOV	%RAX,%RBP;(2) 
+0x1327;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;MOV	%R14,%RDI;(2) 
+0x132a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;CALL	1180 <.plt.sec@start+0x70>;(2) 
+0x132f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:67;MOV	%R14,%RDI;(2) 
+0x1332;/home/sofiane/AOC/tp-rendu/AOC/driver.c:66;MOV	%RAX,%R12;(2) 
+0x1335;/home/sofiane/AOC/tp-rendu/AOC/driver.c:67;CALL	1180 <.plt.sec@start+0x70>;(2) 
+0x133a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:68;MOV	$0x30,%EDI;(2) 
+0x133f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:67;MOV	%RAX,%R13;(2) 
+0x1342;/home/sofiane/AOC/tp-rendu/AOC/driver.c:68;CALL	1180 <.plt.sec@start+0x70>;(2) 
+0x1347;/home/sofiane/AOC/tp-rendu/AOC/driver.c:71;XOR	%EDI,%EDI;(2) 
+0x1349;/home/sofiane/AOC/tp-rendu/AOC/driver.c:68;MOV	%RAX,(%RSP);(2) 
+0x134d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:71;CALL	1150 <.plt.sec@start+0x40>;(2) 
+0x1352;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;TEST	%EBX,%EBX;(2) 
+0x1354;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1a02 <main+0x822>;(2) 
+0x135a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;MOV	0x40(%RSP),%R8;(2) 
+0x135f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;MOV	%RBP,%R15;(2) 
+0x1362;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;LEA	(%R8,%RBP,1),%R14;(2) 
+0x1366;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;SUB	$0x8,%R8;(2) 
+0x136a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;SHR	$0x3,%R8;(2) 
+0x136e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;ADD	$0x1,%R8;(2) 
+0x1372;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;AND	$0x7,%R8D;(2) 
+0x1376;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	148d <main+0x2ad>;(2) 
+0x137c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x1,%R8;(2) 
+0x1380;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1465 <main+0x285>;(2) 
+0x1386;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x2,%R8;(2) 
+0x138a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1446 <main+0x266>;(2) 
+0x1390;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x3,%R8;(2) 
+0x1394;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1427 <main+0x247>;(2) 
+0x139a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x4,%R8;(2) 
+0x139e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1408 <main+0x228>;(2) 
+0x13a0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x5,%R8;(2) 
+0x13a4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	13e9 <main+0x209>;(2) 
+0x13a6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x6,%R8;(2) 
+0x13aa;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	13ca <main+0x1ea>;(2) 
+0x13ac;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x13b1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM0,%XMM0;(2) 
+0x13b5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;LEA	0x8(%RBP),%R15;(2) 
+0x13b9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM0;(2) 
+0x13bd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1df3(%RIP),%XMM0;(2) 
+0x13c5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM0,(%RBP);(2) 
+0x13ca;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x13cf;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM1,%XMM1;(2) 
+0x13d3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;ADD	$0x8,%R15;(2) 
+0x13d7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM1;(2) 
+0x13db;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1dd5(%RIP),%XMM1;(2) 
+0x13e3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM1,-0x8(%R15);(2) 
+0x13e9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x13ee;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM2,%XMM2;(2) 
+0x13f2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;ADD	$0x8,%R15;(2) 
+0x13f6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM2;(2) 
+0x13fa;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1db6(%RIP),%XMM2;(2) 
+0x1402;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM2,-0x8(%R15);(2) 
+0x1408;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x140d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM3,%XMM3;(2) 
+0x1411;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;ADD	$0x8,%R15;(2) 
+0x1415;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM3;(2) 
+0x1419;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1d97(%RIP),%XMM3;(2) 
+0x1421;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM3,-0x8(%R15);(2) 
+0x1427;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x142c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM4,%XMM4;(2) 
+0x1430;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;ADD	$0x8,%R15;(2) 
+0x1434;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM4;(2) 
+0x1438;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1d78(%RIP),%XMM4;(2) 
+0x1440;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM4,-0x8(%R15);(2) 
+0x1446;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x144b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM5,%XMM5;(2) 
+0x144f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;ADD	$0x8,%R15;(2) 
+0x1453;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM5;(2) 
+0x1457;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1d59(%RIP),%XMM5;(2) 
+0x145f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM5,-0x8(%R15);(2) 
+0x1465;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x146a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM6,%XMM6;(2) 
+0x146e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;ADD	$0x8,%R15;(2) 
+0x1472;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM6;(2) 
+0x1476;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1d3a(%RIP),%XMM6;(2) 
+0x147e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM6,-0x8(%R15);(2) 
+0x1484;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	%R14,%R15;(2) 
+0x1487;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1587 <main+0x3a7>;(2) 
+0x148d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;  (4) 
+0x1492;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM7,%XMM7;  (4) 
+0x1496;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;ADD	$0x40,%R15;  (4) 
+0x149a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM7;  (4) 
+0x149e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1d12(%RIP),%XMM7;  (4) 
+0x14a6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM7,-0x40(%R15);  (4) 
+0x14ac;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;  (4) 
+0x14b1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM8,%XMM8;  (4) 
+0x14b6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM8;  (4) 
+0x14bb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1cf4(%RIP),%XMM8;  (4) 
+0x14c4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM8,-0x38(%R15);  (4) 
+0x14ca;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;  (4) 
+0x14cf;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM9,%XMM9;  (4) 
+0x14d4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM9;  (4) 
+0x14d9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1cd6(%RIP),%XMM9;  (4) 
+0x14e2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM9,-0x30(%R15);  (4) 
+0x14e8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;  (4) 
+0x14ed;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM10,%XMM10;  (4) 
+0x14f2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM10;  (4) 
+0x14f7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1cb8(%RIP),%XMM10;  (4) 
+0x1500;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM10,-0x28(%R15);  (4) 
+0x1506;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;  (4) 
+0x150b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM11,%XMM11;  (4) 
+0x1510;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM11;  (4) 
+0x1515;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1c9a(%RIP),%XMM11;  (4) 
+0x151e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM11,-0x20(%R15);  (4) 
+0x1524;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;  (4) 
+0x1529;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM12,%XMM12;  (4) 
+0x152e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM12;  (4) 
+0x1533;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1c7c(%RIP),%XMM12;  (4) 
+0x153c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM12,-0x18(%R15);  (4) 
+0x1542;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;  (4) 
+0x1547;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM13,%XMM13;  (4) 
+0x154c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM13;  (4) 
+0x1551;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1c5e(%RIP),%XMM13;  (4) 
+0x155a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM13,-0x10(%R15);  (4) 
+0x1560;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CALL	11d0 <.plt.sec@start+0xc0>;  (4) 
+0x1565;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;PXOR	%XMM14,%XMM14;  (4) 
+0x156a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;CVTSI2SD	%EAX,%XMM14;  (4) 
+0x156f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;DIVSD	0x1c40(%RIP),%XMM14;  (4) 
+0x1578;/home/sofiane/AOC/tp-rendu/AOC/driver.c:20;MOVSD	%XMM14,-0x8(%R15);  (4) 
+0x157e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	%R14,%R15;  (4) 
+0x1581;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JNE	148d <main+0x2ad>;  (4) 
+0x1587;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;MOV	0x38(%RSP),%R10;(2) 
+0x158c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;MOV	%R12,%R15;(2) 
+0x158f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;LEA	(,%R10,4),%R14;(2) 
+0x1597;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;LEA	-0x4(%R14),%RAX;(2) 
+0x159b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;LEA	(%R12,%R14,1),%R11;(2) 
+0x159f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;SHR	$0x2,%RAX;(2) 
+0x15a3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;MOV	%R11,0x10(%RSP);(2) 
+0x15a8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;ADD	$0x1,%RAX;(2) 
+0x15ac;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;AND	$0x7,%EAX;(2) 
+0x15af;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	16cf <main+0x4ef>;(2) 
+0x15b5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x1,%RAX;(2) 
+0x15b9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	16a3 <main+0x4c3>;(2) 
+0x15bf;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x2,%RAX;(2) 
+0x15c3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1684 <main+0x4a4>;(2) 
+0x15c9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x3,%RAX;(2) 
+0x15cd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1665 <main+0x485>;(2) 
+0x15d3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x4,%RAX;(2) 
+0x15d7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1646 <main+0x466>;(2) 
+0x15d9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x5,%RAX;(2) 
+0x15dd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1627 <main+0x447>;(2) 
+0x15df;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;CMP	$0x6,%RAX;(2) 
+0x15e3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:19;JE	1608 <main+0x428>;(2) 
+0x15e5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x15ea;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM15,%XMM15;(2) 
+0x15ef;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;LEA	0x4(%R12),%R15;(2) 
+0x15f4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM15;(2) 
+0x15f9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1bbe(%RIP),%XMM15;(2) 
+0x1602;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM15,(%R12);(2) 
+0x1608;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x160d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM0,%XMM0;(2) 
+0x1611;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x1615;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM0;(2) 
+0x1619;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1b9f(%RIP),%XMM0;(2) 
+0x1621;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM0,-0x4(%R15);(2) 
+0x1627;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x162c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM1,%XMM1;(2) 
+0x1630;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x1634;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM1;(2) 
+0x1638;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1b80(%RIP),%XMM1;(2) 
+0x1640;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM1,-0x4(%R15);(2) 
+0x1646;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x164b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM2,%XMM2;(2) 
+0x164f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x1653;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM2;(2) 
+0x1657;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1b61(%RIP),%XMM2;(2) 
+0x165f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM2,-0x4(%R15);(2) 
+0x1665;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x166a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM3,%XMM3;(2) 
+0x166e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x1672;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM3;(2) 
+0x1676;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1b42(%RIP),%XMM3;(2) 
+0x167e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM3,-0x4(%R15);(2) 
+0x1684;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x1689;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM4,%XMM4;(2) 
+0x168d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x1691;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM4;(2) 
+0x1695;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1b23(%RIP),%XMM4;(2) 
+0x169d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM4,-0x4(%R15);(2) 
+0x16a3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x16a8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM5,%XMM5;(2) 
+0x16ac;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x16b0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;LEA	(%R12,%R14,1),%RSI;(2) 
+0x16b4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM5;(2) 
+0x16b8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1b00(%RIP),%XMM5;(2) 
+0x16c0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM5,-0x4(%R15);(2) 
+0x16c6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	%RSI,%R15;(2) 
+0x16c9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JE	17cb <main+0x5eb>;(2) 
+0x16cf;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (5) 
+0x16d4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM6,%XMM6;  (5) 
+0x16d8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x20,%R15;  (5) 
+0x16dc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM6;  (5) 
+0x16e0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1ad8(%RIP),%XMM6;  (5) 
+0x16e8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM6,-0x20(%R15);  (5) 
+0x16ee;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (5) 
+0x16f3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM7,%XMM7;  (5) 
+0x16f7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM7;  (5) 
+0x16fb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1abd(%RIP),%XMM7;  (5) 
+0x1703;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM7,-0x1c(%R15);  (5) 
+0x1709;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (5) 
+0x170e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM8,%XMM8;  (5) 
+0x1713;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM8;  (5) 
+0x1718;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1a9f(%RIP),%XMM8;  (5) 
+0x1721;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM8,-0x18(%R15);  (5) 
+0x1727;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (5) 
+0x172c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM9,%XMM9;  (5) 
+0x1731;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM9;  (5) 
+0x1736;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1a81(%RIP),%XMM9;  (5) 
+0x173f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM9,-0x14(%R15);  (5) 
+0x1745;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (5) 
+0x174a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM10,%XMM10;  (5) 
+0x174f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM10;  (5) 
+0x1754;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1a63(%RIP),%XMM10;  (5) 
+0x175d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM10,-0x10(%R15);  (5) 
+0x1763;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (5) 
+0x1768;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM11,%XMM11;  (5) 
+0x176d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM11;  (5) 
+0x1772;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1a45(%RIP),%XMM11;  (5) 
+0x177b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM11,-0xc(%R15);  (5) 
+0x1781;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (5) 
+0x1786;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM12,%XMM12;  (5) 
+0x178b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM12;  (5) 
+0x1790;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1a27(%RIP),%XMM12;  (5) 
+0x1799;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM12,-0x8(%R15);  (5) 
+0x179f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (5) 
+0x17a4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM13,%XMM13;  (5) 
+0x17a9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;MOV	0x10(%RSP),%RDX;  (5) 
+0x17ae;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM13;  (5) 
+0x17b3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1a04(%RIP),%XMM13;  (5) 
+0x17bc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM13,-0x4(%R15);  (5) 
+0x17c2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	%RDX,%R15;  (5) 
+0x17c5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JNE	16cf <main+0x4ef>;  (5) 
+0x17cb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;LEA	(%R13,%R14,1),%RCX;(2) 
+0x17d0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;SUB	$0x4,%R14;(2) 
+0x17d4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;MOV	%R13,%R15;(2) 
+0x17d7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;SHR	$0x2,%R14;(2) 
+0x17db;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;MOV	%RCX,0x10(%RSP);(2) 
+0x17e0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x1,%R14;(2) 
+0x17e4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;AND	$0x7,%R14D;(2) 
+0x17e8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JE	190b <main+0x72b>;(2) 
+0x17ee;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	$0x1,%R14;(2) 
+0x17f2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JE	18de <main+0x6fe>;(2) 
+0x17f8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	$0x2,%R14;(2) 
+0x17fc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JE	18bf <main+0x6df>;(2) 
+0x1802;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	$0x3,%R14;(2) 
+0x1806;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JE	18a0 <main+0x6c0>;(2) 
+0x180c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	$0x4,%R14;(2) 
+0x1810;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JE	1881 <main+0x6a1>;(2) 
+0x1812;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	$0x5,%R14;(2) 
+0x1816;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JE	1862 <main+0x682>;(2) 
+0x1818;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	$0x6,%R14;(2) 
+0x181c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JE	1840 <main+0x660>;(2) 
+0x181e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x1823;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM14,%XMM14;(2) 
+0x1828;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;LEA	0x4(%R13),%R15;(2) 
+0x182c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM14;(2) 
+0x1831;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1986(%RIP),%XMM14;(2) 
+0x183a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM14,(%R13);(2) 
+0x1840;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x1845;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM15,%XMM15;(2) 
+0x184a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x184e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM15;(2) 
+0x1853;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1964(%RIP),%XMM15;(2) 
+0x185c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM15,-0x4(%R15);(2) 
+0x1862;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x1867;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM0,%XMM0;(2) 
+0x186b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x186f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM0;(2) 
+0x1873;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1945(%RIP),%XMM0;(2) 
+0x187b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM0,-0x4(%R15);(2) 
+0x1881;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x1886;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM1,%XMM1;(2) 
+0x188a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x188e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM1;(2) 
+0x1892;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1926(%RIP),%XMM1;(2) 
+0x189a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM1,-0x4(%R15);(2) 
+0x18a0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x18a5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM2,%XMM2;(2) 
+0x18a9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x18ad;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM2;(2) 
+0x18b1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1907(%RIP),%XMM2;(2) 
+0x18b9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM2,-0x4(%R15);(2) 
+0x18bf;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x18c4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM3,%XMM3;(2) 
+0x18c8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x18cc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM3;(2) 
+0x18d0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x18e8(%RIP),%XMM3;(2) 
+0x18d8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM3,-0x4(%R15);(2) 
+0x18de;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;(2) 
+0x18e3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM4,%XMM4;(2) 
+0x18e7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;MOV	0x10(%RSP),%RCX;(2) 
+0x18ec;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;(2) 
+0x18f0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM4;(2) 
+0x18f4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x18c4(%RIP),%XMM4;(2) 
+0x18fc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM4,-0x4(%R15);(2) 
+0x1902;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	%RCX,%R15;(2) 
+0x1905;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JE	1a02 <main+0x822>;(2) 
+0x190b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;MOV	%RCX,%R14;(2) 
+0x190e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (6) 
+0x1913;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM5,%XMM5;  (6) 
+0x1917;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x20,%R15;  (6) 
+0x191b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM5;  (6) 
+0x191f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1899(%RIP),%XMM5;  (6) 
+0x1927;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM5,-0x20(%R15);  (6) 
+0x192d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (6) 
+0x1932;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM6,%XMM6;  (6) 
+0x1936;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM6;  (6) 
+0x193a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x187e(%RIP),%XMM6;  (6) 
+0x1942;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM6,-0x1c(%R15);  (6) 
+0x1948;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (6) 
+0x194d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM7,%XMM7;  (6) 
+0x1951;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM7;  (6) 
+0x1955;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1863(%RIP),%XMM7;  (6) 
+0x195d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM7,-0x18(%R15);  (6) 
+0x1963;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (6) 
+0x1968;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM8,%XMM8;  (6) 
+0x196d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM8;  (6) 
+0x1972;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1845(%RIP),%XMM8;  (6) 
+0x197b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM8,-0x14(%R15);  (6) 
+0x1981;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (6) 
+0x1986;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM9,%XMM9;  (6) 
+0x198b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM9;  (6) 
+0x1990;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1827(%RIP),%XMM9;  (6) 
+0x1999;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM9,-0x10(%R15);  (6) 
+0x199f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (6) 
+0x19a4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM10,%XMM10;  (6) 
+0x19a9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM10;  (6) 
+0x19ae;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1809(%RIP),%XMM10;  (6) 
+0x19b7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM10,-0xc(%R15);  (6) 
+0x19bd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (6) 
+0x19c2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM11,%XMM11;  (6) 
+0x19c7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM11;  (6) 
+0x19cc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x17eb(%RIP),%XMM11;  (6) 
+0x19d5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM11,-0x8(%R15);  (6) 
+0x19db;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (6) 
+0x19e0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM12,%XMM12;  (6) 
+0x19e5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM12;  (6) 
+0x19ea;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x17cd(%RIP),%XMM12;  (6) 
+0x19f3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM12,-0x4(%R15);  (6) 
+0x19f9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	%R14,%R15;  (6) 
+0x19fc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JNE	190e <main+0x72e>;  (6) 
+0x1a02;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;MOV	(%RSP),%RDI;(2) 
+0x1a06;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;MOV	%RDI,%R15;(2) 
+0x1a09;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;LEA	0x30(%RDI),%R14;(2) 
+0x1a0d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;NOPL	(%RAX);(2) 
+0x1a10;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CALL	11d0 <.plt.sec@start+0xc0>;  (0) 
+0x1a15;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;PXOR	%XMM13,%XMM13;  (0) 
+0x1a1a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;ADD	$0x4,%R15;  (0) 
+0x1a1e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;CVTSI2SS	%EAX,%XMM13;  (0) 
+0x1a23;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MULSS	0x1794(%RIP),%XMM13;  (0) 
+0x1a2c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:28;MOVSS	%XMM13,-0x4(%R15);  (0) 
+0x1a32;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;CMP	%R15,%R14;  (0) 
+0x1a35;/home/sofiane/AOC/tp-rendu/AOC/driver.c:27;JNE	1a10 <main+0x830>;  (0) 
+0x1a37;/home/sofiane/AOC/tp-rendu/AOC/driver.c:78;CMPQ	$0,0x8(%RSP);(2) 
+0x1a3d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:78;JE	1d98 <main+0xbb8>;(2) 
+0x1a43;/home/sofiane/AOC/tp-rendu/AOC/driver.c:82;MOV	(%RSP),%R8;(2) 
+0x1a47;/home/sofiane/AOC/tp-rendu/AOC/driver.c:82;MOV	%R13,%RCX;(2) 
+0x1a4a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:82;MOV	%R12,%RDX;(2) 
+0x1a4d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:82;MOV	%RBP,%RSI;(2) 
+0x1a50;/home/sofiane/AOC/tp-rendu/AOC/driver.c:82;MOV	%EBX,%EDI;(2) 
+0x1a52;/home/sofiane/AOC/tp-rendu/AOC/driver.c:82;CALL	2530 <kernel>;(2) 
+0x1a57;/home/sofiane/AOC/tp-rendu/AOC/driver.c:86;XOR	%EAX,%EAX;(2) 
+0x1a59;/home/sofiane/AOC/tp-rendu/AOC/driver.c:86;CALL	25b0 <rdtsc>;(2) 
+0x1a5e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;MOV	0x18(%RSP),%R9D;(2) 
+0x1a63;/home/sofiane/AOC/tp-rendu/AOC/driver.c:86;MOV	%RAX,%R14;(2) 
+0x1a66;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;TEST	%R9D,%R9D;(2) 
+0x1a69;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JE	1c1a <main+0xa3a>;(2) 
+0x1a6f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;MOV	0x18(%RSP),%R11D;(2) 
+0x1a74;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;XOR	%R15D,%R15D;(2) 
+0x1a77;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;AND	$0x7,%R11D;(2) 
+0x1a7b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JE	1b62 <main+0x982>;(2) 
+0x1a81;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;CMP	$0x1,%R11D;(2) 
+0x1a85;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JE	1b3f <main+0x95f>;(2) 
+0x1a8b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;CMP	$0x2,%R11D;(2) 
+0x1a8f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JE	1b27 <main+0x947>;(2) 
+0x1a95;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;CMP	$0x3,%R11D;(2) 
+0x1a99;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JE	1b0f <main+0x92f>;(2) 
+0x1a9b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;CMP	$0x4,%R11D;(2) 
+0x1a9f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JE	1af7 <main+0x917>;(2) 
+0x1aa1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;CMP	$0x5,%R11D;(2) 
+0x1aa5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JE	1adf <main+0x8ff>;(2) 
+0x1aa7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;CMP	$0x6,%R11D;(2) 
+0x1aab;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JE	1ac7 <main+0x8e7>;(2) 
+0x1aad;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	(%RSP),%R8;(2) 
+0x1ab1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;(2) 
+0x1ab4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;(2) 
+0x1ab7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;(2) 
+0x1aba;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;(2) 
+0x1abc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;MOV	$0x1,%R15D;(2) 
+0x1ac2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;(2) 
+0x1ac7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	(%RSP),%R8;(2) 
+0x1acb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;(2) 
+0x1ace;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;(2) 
+0x1ad1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;(2) 
+0x1ad4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;(2) 
+0x1ad6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;ADD	$0x1,%R15D;(2) 
+0x1ada;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;(2) 
+0x1adf;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	(%RSP),%R8;(2) 
+0x1ae3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;(2) 
+0x1ae6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;(2) 
+0x1ae9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;(2) 
+0x1aec;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;(2) 
+0x1aee;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;ADD	$0x1,%R15D;(2) 
+0x1af2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;(2) 
+0x1af7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	(%RSP),%R8;(2) 
+0x1afb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;(2) 
+0x1afe;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;(2) 
+0x1b01;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;(2) 
+0x1b04;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;(2) 
+0x1b06;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;ADD	$0x1,%R15D;(2) 
+0x1b0a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;(2) 
+0x1b0f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	(%RSP),%R8;(2) 
+0x1b13;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;(2) 
+0x1b16;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;(2) 
+0x1b19;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;(2) 
+0x1b1c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;(2) 
+0x1b1e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;ADD	$0x1,%R15D;(2) 
+0x1b22;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;(2) 
+0x1b27;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	(%RSP),%R8;(2) 
+0x1b2b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;(2) 
+0x1b2e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;(2) 
+0x1b31;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;(2) 
+0x1b34;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;(2) 
+0x1b36;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;ADD	$0x1,%R15D;(2) 
+0x1b3a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;(2) 
+0x1b3f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	(%RSP),%R8;(2) 
+0x1b43;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;(2) 
+0x1b46;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;(2) 
+0x1b49;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;(2) 
+0x1b4c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;(2) 
+0x1b4e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;ADD	$0x1,%R15D;(2) 
+0x1b52;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;(2) 
+0x1b57;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;CMP	%R15D,0x18(%RSP);(2) 
+0x1b5c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JE	1c1a <main+0xa3a>;(2) 
+0x1b62;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;MOV	%R14,0x10(%RSP);(2) 
+0x1b67;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;MOV	%R15D,%R14D;(2) 
+0x1b6a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;MOV	(%RSP),%R15;(2) 
+0x1b6e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R15,%R8;  (1) 
+0x1b71;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;  (1) 
+0x1b74;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;  (1) 
+0x1b77;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;  (1) 
+0x1b7a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;  (1) 
+0x1b7c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;ADD	$0x8,%R14D;  (1) 
+0x1b80;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;  (1) 
+0x1b85;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R15,%R8;  (1) 
+0x1b88;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;  (1) 
+0x1b8b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;  (1) 
+0x1b8e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;  (1) 
+0x1b91;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;  (1) 
+0x1b93;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;  (1) 
+0x1b98;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R15,%R8;  (1) 
+0x1b9b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;  (1) 
+0x1b9e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;  (1) 
+0x1ba1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;  (1) 
+0x1ba4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;  (1) 
+0x1ba6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;  (1) 
+0x1bab;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R15,%R8;  (1) 
+0x1bae;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;  (1) 
+0x1bb1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;  (1) 
+0x1bb4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;  (1) 
+0x1bb7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;  (1) 
+0x1bb9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;  (1) 
+0x1bbe;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R15,%R8;  (1) 
+0x1bc1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;  (1) 
+0x1bc4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;  (1) 
+0x1bc7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;  (1) 
+0x1bca;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;  (1) 
+0x1bcc;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;  (1) 
+0x1bd1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R15,%R8;  (1) 
+0x1bd4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;  (1) 
+0x1bd7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;  (1) 
+0x1bda;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;  (1) 
+0x1bdd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;  (1) 
+0x1bdf;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;  (1) 
+0x1be4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R15,%R8;  (1) 
+0x1be7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;  (1) 
+0x1bea;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;  (1) 
+0x1bed;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;  (1) 
+0x1bf0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;  (1) 
+0x1bf2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;  (1) 
+0x1bf7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R15,%R8;  (1) 
+0x1bfa;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R13,%RCX;  (1) 
+0x1bfd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%R12,%RDX;  (1) 
+0x1c00;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%RBP,%RSI;  (1) 
+0x1c03;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;MOV	%EBX,%EDI;  (1) 
+0x1c05;/home/sofiane/AOC/tp-rendu/AOC/driver.c:88;CALL	2530 <kernel>;  (1) 
+0x1c0a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;CMP	%R14D,0x18(%RSP);  (1) 
+0x1c0f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JNE	1b6e <main+0x98e>;  (1) 
+0x1c15;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;MOV	0x10(%RSP),%R14;(2) 
+0x1c1a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:90;XOR	%EAX,%EAX;(2) 
+0x1c1c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:90;CALL	25b0 <rdtsc>;(2) 
+0x1c21;/home/sofiane/AOC/tp-rendu/AOC/driver.c:91;MOV	0x30(%RSP),%RSI;(2) 
+0x1c26;/home/sofiane/AOC/tp-rendu/AOC/driver.c:91;MOV	0x8(%RSP),%R15;(2) 
+0x1c2b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:94;MOV	%RBP,%RDI;(2) 
+0x1c2e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:91;SUB	%R14,%RAX;(2) 
+0x1c31;/home/sofiane/AOC/tp-rendu/AOC/driver.c:91;MOV	%RAX,(%RSI,%R15,8);(2) 
+0x1c35;/home/sofiane/AOC/tp-rendu/AOC/driver.c:58;MOV	%R15,%RBP;(2) 
+0x1c38;/home/sofiane/AOC/tp-rendu/AOC/driver.c:94;CALL	1110 <.plt.sec@start>;(2) 
+0x1c3d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:95;MOV	%R12,%RDI;(2) 
+0x1c40;/home/sofiane/AOC/tp-rendu/AOC/driver.c:58;ADD	$0x1,%RBP;(2) 
+0x1c44;/home/sofiane/AOC/tp-rendu/AOC/driver.c:95;CALL	1110 <.plt.sec@start>;(2) 
+0x1c49;/home/sofiane/AOC/tp-rendu/AOC/driver.c:96;MOV	%R13,%RDI;(2) 
+0x1c4c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:96;CALL	1110 <.plt.sec@start>;(2) 
+0x1c51;/home/sofiane/AOC/tp-rendu/AOC/driver.c:97;MOV	(%RSP),%RDI;(2) 
+0x1c55;/home/sofiane/AOC/tp-rendu/AOC/driver.c:97;CALL	1110 <.plt.sec@start>;(2) 
+0x1c5a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:58;MOV	%RBP,0x8(%RSP);(2) 
+0x1c5f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:58;CMP	$0x1f,%RBP;(2) 
+0x1c63;/home/sofiane/AOC/tp-rendu/AOC/driver.c:58;JNE	12e0 <main+0x100>;(2) 
+0x1c69;/home/sofiane/AOC/tp-rendu/AOC/driver.c:101;MOV	0x30(%RSP),%RDI;
+0x1c6e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:101;MOV	$0x8,%EDX;
+0x1c73;/home/sofiane/AOC/tp-rendu/AOC/driver.c:101;MOV	$0x1f,%ESI;
+0x1c78;/home/sofiane/AOC/tp-rendu/AOC/driver.c:101;LEA	0x941(%RIP),%RCX;
+0x1c7f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:101;MOV	0x48(%RSP),%RBX;
+0x1c84;/home/sofiane/AOC/tp-rendu/AOC/driver.c:101;CALL	1120 <.plt.sec@start+0x10>;
+0x1c89;/home/sofiane/AOC/tp-rendu/AOC/driver.c:104;MOV	0x50(%RSP),%R12;
+0x1c8e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:105;CMP	$0x7cf,%R12;
+0x1c95;/home/sofiane/AOC/tp-rendu/AOC/driver.c:105;JBE	1fbe <main+0xdde>;
+0x1c9b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;TEST	%R12,%R12;
+0x1c9e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;JS	1f95 <main+0xdb5>;
+0x1ca4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;PXOR	%XMM14,%XMM14;
+0x1ca9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;CVTSI2SS	%R12,%XMM14;
+0x1cae;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;MOVSS	%XMM14,(%RSP);
+0x1cb4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:100;MOV	%EBX,%ECX;
+0x1cb6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;PXOR	%XMM1,%XMM1;
+0x1cba;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;MOVSS	(%RSP),%XMM0;
+0x1cbf;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	%R12,%RDX;
+0x1cc2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:100;IMUL	%EBX,%ECX;
+0x1cc5;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EDI;
+0x1cca;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EAX;
+0x1ccf;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;LEA	0x1432(%RIP),%RSI;
+0x1cd6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;IMUL	%EBX,%ECX;
+0x1cd9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;CVTSI2SS	%RCX,%XMM1;
+0x1cde;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;DIVSS	%XMM1,%XMM0;
+0x1ce2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;MOVSS	%XMM1,0x18(%RSP);
+0x1ce8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:110;CVTSS2SD	%XMM0,%XMM0;
+0x1cec;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;CALL	1190 <.plt.sec@start+0x80>;
+0x1cf1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;MOVSS	0x18(%RSP),%XMM2;
+0x1cf7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:114;MOV	0xc8(%RSP),%R14;
+0x1cff;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;TEST	%R14,%R14;
+0x1d02;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;JS	1fff <main+0xe1f>;
+0x1d08;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;PXOR	%XMM3,%XMM3;
+0x1d0c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;CVTSI2SS	%R14,%XMM3;
+0x1d11;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;DIVSS	%XMM2,%XMM3;
+0x1d15;/home/sofiane/AOC/tp-rendu/AOC/driver.c:115;PXOR	%XMM0,%XMM0;
+0x1d19;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	%R14,%RDX;
+0x1d1c;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EDI;
+0x1d21;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;LEA	0x1410(%RIP),%RSI;
+0x1d28;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EAX;
+0x1d2d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:115;CVTSS2SD	%XMM3,%XMM0;
+0x1d31;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;CALL	1190 <.plt.sec@start+0x80>;
+0x1d36;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;SUB	%R12,%R14;
+0x1d39;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;JS	1fe0 <main+0xe00>;
+0x1d3f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;PXOR	%XMM4,%XMM4;
+0x1d43;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;CVTSI2SS	%R14,%XMM4;
+0x1d48;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;MULSS	0x1474(%RIP),%XMM4;
+0x1d50;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;DIVSS	(%RSP),%XMM4;
+0x1d55;/home/sofiane/AOC/tp-rendu/AOC/driver.c:120;COMISS	0x146c(%RIP),%XMM4;
+0x1d5c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:120;JAE	203e <main+0xe5e>;
+0x1d62;/home/sofiane/AOC/tp-rendu/AOC/driver.c:122;COMISS	0x1463(%RIP),%XMM4;
+0x1d69;/home/sofiane/AOC/tp-rendu/AOC/driver.c:121;PXOR	%XMM0,%XMM0;
+0x1d6d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:121;CVTSS2SD	%XMM4,%XMM0;
+0x1d71;/home/sofiane/AOC/tp-rendu/AOC/driver.c:122;JB	2021 <main+0xe41>;
+0x1d77;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;LEA	0x13fe(%RIP),%RSI;
+0x1d7e;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EDI;
+0x1d83;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EAX;
+0x1d88;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;CALL	1190 <.plt.sec@start+0x80>;
+0x1d8d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:127;XOR	%EAX,%EAX;
+0x1d8f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:127;JMP	1230 <main+0x50>;
+0x1d94;/home/sofiane/AOC/tp-rendu/AOC/driver.c:127;NOPL	(%RAX);
+0x1d98;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;MOV	0x1c(%RSP),%R8D;(2) 
+0x1d9d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;XOR	%R14D,%R14D;(2) 
+0x1da0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;TEST	%R8D,%R8D;(2) 
+0x1da3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JE	1f3f <main+0xd5f>;(2) 
+0x1da9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;AND	$0x7,%R8D;(2) 
+0x1dad;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JE	1e94 <main+0xcb4>;(2) 
+0x1db3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;CMP	$0x1,%R8D;(2) 
+0x1db7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JE	1e71 <main+0xc91>;(2) 
+0x1dbd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;CMP	$0x2,%R8D;(2) 
+0x1dc1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JE	1e59 <main+0xc79>;(2) 
+0x1dc7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;CMP	$0x3,%R8D;(2) 
+0x1dcb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JE	1e41 <main+0xc61>;(2) 
+0x1dcd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;CMP	$0x4,%R8D;(2) 
+0x1dd1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JE	1e29 <main+0xc49>;(2) 
+0x1dd3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;CMP	$0x5,%R8D;(2) 
+0x1dd7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JE	1e11 <main+0xc31>;(2) 
+0x1dd9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;CMP	$0x6,%R8D;(2) 
+0x1ddd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JE	1df9 <main+0xc19>;(2) 
+0x1ddf;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	(%RSP),%R8;(2) 
+0x1de3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;(2) 
+0x1de6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;(2) 
+0x1de9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;(2) 
+0x1dec;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;(2) 
+0x1dee;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;MOV	$0x1,%R14D;(2) 
+0x1df4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;(2) 
+0x1df9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	(%RSP),%R8;(2) 
+0x1dfd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;(2) 
+0x1e00;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;(2) 
+0x1e03;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;(2) 
+0x1e06;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;(2) 
+0x1e08;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;ADD	$0x1,%R14D;(2) 
+0x1e0c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;(2) 
+0x1e11;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	(%RSP),%R8;(2) 
+0x1e15;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;(2) 
+0x1e18;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;(2) 
+0x1e1b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;(2) 
+0x1e1e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;(2) 
+0x1e20;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;ADD	$0x1,%R14D;(2) 
+0x1e24;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;(2) 
+0x1e29;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	(%RSP),%R8;(2) 
+0x1e2d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;(2) 
+0x1e30;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;(2) 
+0x1e33;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;(2) 
+0x1e36;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;(2) 
+0x1e38;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;ADD	$0x1,%R14D;(2) 
+0x1e3c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;(2) 
+0x1e41;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	(%RSP),%R8;(2) 
+0x1e45;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;(2) 
+0x1e48;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;(2) 
+0x1e4b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;(2) 
+0x1e4e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;(2) 
+0x1e50;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;ADD	$0x1,%R14D;(2) 
+0x1e54;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;(2) 
+0x1e59;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	(%RSP),%R8;(2) 
+0x1e5d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;(2) 
+0x1e60;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;(2) 
+0x1e63;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;(2) 
+0x1e66;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;(2) 
+0x1e68;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;ADD	$0x1,%R14D;(2) 
+0x1e6c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;(2) 
+0x1e71;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	(%RSP),%R8;(2) 
+0x1e75;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;(2) 
+0x1e78;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;(2) 
+0x1e7b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;(2) 
+0x1e7e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;(2) 
+0x1e80;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;ADD	$0x1,%R14D;(2) 
+0x1e84;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;(2) 
+0x1e89;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;CMP	%R14D,0x1c(%RSP);(2) 
+0x1e8e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JE	1f3f <main+0xd5f>;(2) 
+0x1e94;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;MOV	(%RSP),%R15;(2) 
+0x1e98;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R15,%R8;  (3) 
+0x1e9b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;  (3) 
+0x1e9e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;  (3) 
+0x1ea1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;  (3) 
+0x1ea4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;  (3) 
+0x1ea6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;ADD	$0x8,%R14D;  (3) 
+0x1eaa;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;  (3) 
+0x1eaf;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R15,%R8;  (3) 
+0x1eb2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;  (3) 
+0x1eb5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;  (3) 
+0x1eb8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;  (3) 
+0x1ebb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;  (3) 
+0x1ebd;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;  (3) 
+0x1ec2;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R15,%R8;  (3) 
+0x1ec5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;  (3) 
+0x1ec8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;  (3) 
+0x1ecb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;  (3) 
+0x1ece;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;  (3) 
+0x1ed0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;  (3) 
+0x1ed5;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R15,%R8;  (3) 
+0x1ed8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;  (3) 
+0x1edb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;  (3) 
+0x1ede;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;  (3) 
+0x1ee1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;  (3) 
+0x1ee3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;  (3) 
+0x1ee8;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R15,%R8;  (3) 
+0x1eeb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;  (3) 
+0x1eee;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;  (3) 
+0x1ef1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;  (3) 
+0x1ef4;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;  (3) 
+0x1ef6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;  (3) 
+0x1efb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R15,%R8;  (3) 
+0x1efe;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;  (3) 
+0x1f01;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;  (3) 
+0x1f04;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;  (3) 
+0x1f07;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;  (3) 
+0x1f09;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;  (3) 
+0x1f0e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R15,%R8;  (3) 
+0x1f11;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;  (3) 
+0x1f14;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;  (3) 
+0x1f17;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;  (3) 
+0x1f1a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;  (3) 
+0x1f1c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;  (3) 
+0x1f21;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R15,%R8;  (3) 
+0x1f24;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R13,%RCX;  (3) 
+0x1f27;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%R12,%RDX;  (3) 
+0x1f2a;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%RBP,%RSI;  (3) 
+0x1f2d;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;MOV	%EBX,%EDI;  (3) 
+0x1f2f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:80;CALL	2530 <kernel>;  (3) 
+0x1f34;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;CMP	%R14D,0x1c(%RSP);  (3) 
+0x1f39;/home/sofiane/AOC/tp-rendu/AOC/driver.c:79;JNE	1e98 <main+0xcb8>;  (3) 
+0x1f3f;/home/sofiane/AOC/tp-rendu/AOC/driver.c:86;XOR	%EAX,%EAX;(2) 
+0x1f41;/home/sofiane/AOC/tp-rendu/AOC/driver.c:86;CALL	25b0 <rdtsc>;(2) 
+0x1f46;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;MOV	0x18(%RSP),%R10D;(2) 
+0x1f4b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:86;MOV	%RAX,%R14;(2) 
+0x1f4e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;TEST	%R10D,%R10D;(2) 
+0x1f51;/home/sofiane/AOC/tp-rendu/AOC/driver.c:87;JNE	1a6f <main+0x88f>;(2) 
+0x1f57;/home/sofiane/AOC/tp-rendu/AOC/driver.c:90;XOR	%EAX,%EAX;(2) 
+0x1f59;/home/sofiane/AOC/tp-rendu/AOC/driver.c:90;CALL	25b0 <rdtsc>;(2) 
+0x1f5e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:94;MOV	%RBP,%RDI;(2) 
+0x1f61;/home/sofiane/AOC/tp-rendu/AOC/driver.c:91;SUB	%R14,%RAX;(2) 
+0x1f64;/home/sofiane/AOC/tp-rendu/AOC/driver.c:91;MOV	%RAX,0x50(%RSP);(2) 
+0x1f69;/home/sofiane/AOC/tp-rendu/AOC/driver.c:94;CALL	1110 <.plt.sec@start>;(2) 
+0x1f6e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:95;MOV	%R12,%RDI;(2) 
+0x1f71;/home/sofiane/AOC/tp-rendu/AOC/driver.c:95;CALL	1110 <.plt.sec@start>;(2) 
+0x1f76;/home/sofiane/AOC/tp-rendu/AOC/driver.c:96;MOV	%R13,%RDI;(2) 
+0x1f79;/home/sofiane/AOC/tp-rendu/AOC/driver.c:96;CALL	1110 <.plt.sec@start>;(2) 
+0x1f7e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:97;MOV	(%RSP),%RDI;(2) 
+0x1f82;/home/sofiane/AOC/tp-rendu/AOC/driver.c:97;CALL	1110 <.plt.sec@start>;(2) 
+0x1f87;/home/sofiane/AOC/tp-rendu/AOC/driver.c:58;MOVQ	$0x1,0x8(%RSP);(2) 
+0x1f90;/home/sofiane/AOC/tp-rendu/AOC/driver.c:58;JMP	12e0 <main+0x100>;(2) 
+0x1f95;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;MOV	%R12,%R13;
+0x1f98;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;MOV	%R12,%RAX;
+0x1f9b;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;PXOR	%XMM15,%XMM15;
+0x1fa0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;SHR	$0x1,%R13;
+0x1fa3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;AND	$0x1,%EAX;
+0x1fa6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;OR	%RAX,%R13;
+0x1fa9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;CVTSI2SS	%R13,%XMM15;
+0x1fae;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;ADDSS	%XMM15,%XMM15;
+0x1fb3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;MOVSS	%XMM15,(%RSP);
+0x1fb9;/home/sofiane/AOC/tp-rendu/AOC/driver.c:111;JMP	1cb4 <main+0xad4>;
+0x1fbe;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	0x305b(%RIP),%RCX;
+0x1fc5;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x64,%EDX;
+0x1fca;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x1fcf;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x10ca(%RIP),%RDI;
+0x1fd6;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11a0 <.plt.sec@start+0x90>;
+0x1fdb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:108;JMP	122b <main+0x4b>;
+0x1fe0;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;MOV	%R14,%R8;
+0x1fe3;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;AND	$0x1,%R14D;
+0x1fe7;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;PXOR	%XMM4,%XMM4;
+0x1feb;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;SHR	$0x1,%R8;
+0x1fee;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;OR	%R14,%R8;
+0x1ff1;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;CVTSI2SS	%R8,%XMM4;
+0x1ff6;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;ADDSS	%XMM4,%XMM4;
+0x1ffa;/home/sofiane/AOC/tp-rendu/AOC/driver.c:119;JMP	1d48 <main+0xb68>;
+0x1fff;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;MOV	%R14,%RDI;
+0x2002;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;MOV	%R14,%R9;
+0x2005;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;PXOR	%XMM3,%XMM3;
+0x2009;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;SHR	$0x1,%RDI;
+0x200c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;AND	$0x1,%R9D;
+0x2010;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;OR	%R9,%RDI;
+0x2013;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;CVTSI2SS	%RDI,%XMM3;
+0x2018;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;ADDSS	%XMM3,%XMM3;
+0x201c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:116;JMP	1d11 <main+0xb31>;
+0x2021;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;LEA	0x1170(%RIP),%RSI;
+0x2028;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EDI;
+0x202d;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EAX;
+0x2032;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;CALL	1190 <.plt.sec@start+0x80>;
+0x2037;/home/sofiane/AOC/tp-rendu/AOC/driver.c:127;XOR	%EAX,%EAX;
+0x2039;/home/sofiane/AOC/tp-rendu/AOC/driver.c:127;JMP	1230 <main+0x50>;
+0x203e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:121;PXOR	%XMM0,%XMM0;
+0x2042;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EDI;
+0x2047;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EAX;
+0x204c;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;LEA	0x1111(%RIP),%RSI;
+0x2053;/home/sofiane/AOC/tp-rendu/AOC/driver.c:121;CVTSS2SD	%XMM4,%XMM0;
+0x2057;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;CALL	1190 <.plt.sec@start+0x80>;
+0x205c;/home/sofiane/AOC/tp-rendu/AOC/driver.c:127;XOR	%EAX,%EAX;
+0x205e;/home/sofiane/AOC/tp-rendu/AOC/driver.c:127;JMP	1230 <main+0x50>;
+0x2063;/home/sofiane/AOC/tp-rendu/AOC/driver.c:128;CALL	1140 <.plt.sec@start+0x30>;
+0x2068;:0;NOPL	(%RAX,%RAX,1);

@@ -1,0 +1,2 @@
+function_id;module;function_name;source_info;time_p;time_s;time_s_min;time_s_avg;time_s_max;cov_deviation;time_deviation;nb_threads;cats;label_name;flops;
+7;measure;kernel;kernel.c:5-5,kernel.c:53-67;100;4.17;4.17;4.17;4.17;0;0;1;"100,0,0,0,0,0,0,0,0,0";kernel;;
