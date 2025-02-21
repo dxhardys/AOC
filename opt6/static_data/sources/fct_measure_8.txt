@@ -1,9 +1,0 @@
-/home/sofiane/AOC/tp-rendu/AOC/kernel.c: 118 - 137
---------------------------------------------------------------------------------
-
-118: void kernel(unsigned n, double* restrict a, const float* restrict b ,const float* restrict c ,const float* restrict d) {
-119:    unsigned k, i ;
-120: 
-121: #pragma omp parallel for
-[...]
-137: }

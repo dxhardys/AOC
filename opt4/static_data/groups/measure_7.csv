@@ -1,6 +1,0 @@
-group_size;pattern;opcodes;offsets;addresses;stride_status;stride;memory_status;accessed_memory;accessed_memory_nooverlap;accessed_memory_overlap;span;head;unroll_factor;
-12;LLLLLLLLLLLL;VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,MOV,;0,4,8,12,16,20,24,28,32,36,40,44,;0x2138,0x213d,0x2143,0x2149,0x214f,0x2155,0x215b,0x2161,0x2167,0x216d,0x2173,0x2179,;Not mono block loop;0;Success;48;48;0;48;0;1;
-1;L;VMOVSS,;0,;0x2280,;Not mono block loop;0;Success;4;4;0;4;0;1;
-2;SS;VMOVSD,VMOVSD,;0,0,;0x2293,0x2269,;Not mono block loop;0;Success;16;8;8;8;0;2;
-1;L;VMOVSS,;3788,;0x2130,;Not mono block loop;0;Success;4;4;0;4;0;1;
-1;L;VMOVSS,;0,;0x2277,;Not mono block loop;0;Success;4;4;0;4;0;1;

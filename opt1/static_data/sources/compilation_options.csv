@@ -1,3 +1,0 @@
-module;src_file;score;issue;opts;
-measure;kernel.c;0.5;"-march=x86-64 is used but it should be replaced by a more architecture specific option or -march=native.";"GNU C17 13.1.0 -mtune=generic -march=x86-64 -g -O3 -fasynchronous-unwind-tables -fstack-protector-strong -fstack-clash-protection -fcf-protection ";
-measure;kernel.c;;"-funroll-loops is missing. ";"";
