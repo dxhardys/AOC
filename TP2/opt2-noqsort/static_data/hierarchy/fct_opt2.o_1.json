@@ -1,0 +1,161 @@
+{
+  "__fct":
+    {
+      "loops":
+        {
+          "_0":
+            {
+              "_6":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c",
+                        "regions":
+                          [
+                            [
+                            226,
+                            228
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "opt2.c:226-228"
+                },
+              "_5":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c",
+                        "regions":
+                          [
+                            [
+                            210,
+                            212
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "opt2.c:210-212"
+                },
+              "_2":
+                {
+                  "_1":
+                    {
+                      "src_regions":
+                        [
+                          {
+                            "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c",
+                            "regions":
+                              [
+                                [
+                                262,
+                                264
+                                ]
+                              ]
+                          }
+                        ],
+                      "src": "opt2.c:262-264"
+                    },
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c",
+                        "regions":
+                          [
+                            [
+                            261,
+                            264
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "opt2.c:261-264"
+                },
+              "_4":
+                {
+                  "_3":
+                    {
+                      "src_regions":
+                        [
+                          {
+                            "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c",
+                            "regions":
+                              [
+                                [
+                                244,
+                                246
+                                ]
+                              ]
+                          }
+                        ],
+                      "src": "opt2.c:244-246"
+                    },
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c",
+                        "regions":
+                          [
+                            [
+                            243,
+                            246
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "opt2.c:243-246"
+                },
+              "src_regions":
+                [
+                  {
+                    "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c",
+                    "regions":
+                      [
+                        [
+                        209,
+                        212
+                        ],
+                        [
+                        225,
+                        228
+                        ],
+                        [
+                        243,
+                        251
+                        ],
+                        [
+                        261,
+                        269
+                        ],
+                        [
+                        298,
+                        303
+                        ],
+                        [
+                        309,
+                        309
+                        ],
+                        [
+                        316,
+                        318
+                        ]
+                      ]
+                  },
+                  {
+                    "path": "/usr/include/x86_64-linux-gnu/bits/stdio2.h",
+                    "regions":
+                      [
+                        [
+                        112,
+                        112
+                        ]
+                      ]
+                  }
+                ],
+              "src": "opt2.c:209-318"
+            }
+        }
+    }
+}

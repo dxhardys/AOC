@@ -1,0 +1,12 @@
+group_size;pattern;opcodes;offsets;addresses;stride_status;stride;memory_status;accessed_memory;accessed_memory_nooverlap;accessed_memory_overlap;span;head;unroll_factor;
+1;L;MOV,;0,;0x2400,;Not found;0;Success;8;8;0;8;0;1;
+2;SS;VMOVQ,MOV,;0,8,;0x2516,0x251a,;Not found;0;Success;16;16;0;16;0;1;
+1;L;MOV,;0,;0x24bb,;Not found;0;Success;8;8;0;8;0;1;
+1;L;MOV,;0,;0x2461,;Not found;0;Success;8;8;0;8;0;1;
+33;SSLLLSSSSLLLLSSLSSLLLLSLSSSLLLLLL;MOV,MOV,VMOVD,MOV,MOV,MOV,MOV,MOV,MOV,VMOVD,VPINSRD,MOV,MOV,MOV,MOV,MOV,MOV,MOV,VMOVD,MOV,VPINSRD,MOV,MOV,MOV,MOV,MOV,MOV,VMOVD,VPINSRD,MOV,MOV,MOV,MOV,;-72,-64,-52,-64,-72,-64,-88,-80,-72,-52,-64,-72,-80,-64,-80,-88,-88,-72,-52,-72,-64,-80,-80,-88,-88,-72,-64,-52,-64,-72,-88,-80,-56,;0x23c2,0x23c6,0x23cf,0x23d9,0x23e9,0x23f4,0x23f8,0x23fc,0x241f,0x2428,0x2432,0x2445,0x2449,0x244d,0x2451,0x2459,0x245d,0x2469,0x2493,0x2498,0x24a0,0x24a7,0x24ab,0x24af,0x24b3,0x24ca,0x24e3,0x24eb,0x24f0,0x24f7,0x24fb,0x24ff,0x2503,;Success;0;Success;220;40;180;40;0;1;
+4;SSSS;MOV,MOV,MOV,MOV,;0,0,0,0,;0x2408,0x2464,0x24be,0x2511,;Indirect;0;Success;32;8;24;8;0;4;
+4;LLLL;MOV,MOV,MOV,MOV,;0,0,0,0,;0x23be,0x241b,0x2455,0x24b7,;Success;0;Success;32;8;24;8;0;4;
+4;SSSS;MOV,MOV,MOV,MOV,;11324,11196,11110,11039,;0x23ed,0x246d,0x24c3,0x250a,;RIP based value;0;Success;32;32;0;293;0;1;
+4;SSSS;VMOVQ,MOV,MOV,VMOVQ,;0,8,8,0,;0x2474,0x2478,0x24ce,0x24d7,;Not found;0;Success;32;16;16;16;0;1;
+2;SS;VMOVQ,MOV,;0,8,;0x2413,0x2417,;Not found;0;Success;16;16;0;16;0;1;
+1;L;MOV,;0,;0x2507,;Not found;0;Success;8;8;0;8;0;1;

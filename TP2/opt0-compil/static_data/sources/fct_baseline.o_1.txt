@@ -1,0 +1,91 @@
+/usr/include/stdlib.h: 364 - 364
+--------------------------------------------------------------------------------
+
+364:   return (int) strtol (__nptr, (char **) NULL, 10);
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/baseline.c: 201 - 312
+--------------------------------------------------------------------------------
+
+201:    qsort (pv_grid->entries, pv_grid->nx * pv_grid->ny,
+202:           sizeof (pv_grid->entries[0]), cmp_pv_entries_v1);
+203: 
+204:    return pv_grid->entries [pv_grid->nx * pv_grid->ny - 1];
+[...]
+212:    qsort (pv_grid->entries, pv_grid->nx * pv_grid->ny,
+213:           sizeof (pv_grid->entries[0]), cmp_pv_entries_v2);
+214: 
+215:    return pv_grid->entries [pv_grid->nx * pv_grid->ny - 1];
+[...]
+225:    for (i=0; i<pv_grid.nx; i++) {
+226:       for (j=0; j<pv_grid.ny; j++) {
+227:          free (pv_grid.entries [i * pv_grid.ny + j]);
+228:          sum_bytes -= sizeof *(pv_grid.entries[0]);
+229:       }
+230:    }
+231: 
+232:    free (pv_grid.entries);
+233:    sum_bytes -= pv_grid.nx * pv_grid.ny * sizeof pv_grid.entries[0];
+[...]
+243:    for (i=0; i<val_grid.nx; i++) {
+244:       for (j=0; j<val_grid.ny; j++) {
+245:          free (val_grid.entries[i * val_grid.ny + j]);
+246:          sum_bytes -= sizeof *(val_grid.entries[0]);
+247:       }
+248:    }
+249: 
+250:    free (val_grid.entries);
+251:    sum_bytes -= val_grid.nx * val_grid.ny * sizeof val_grid.entries[0];
+252: }
+253: 
+254: // Program entry point: CF comments on top of this file + README
+255: int main (int argc, char *argv[])
+256: {
+257:    // Check arguments number
+258:    if (argc < 4) {
+259:       fprintf (stderr, "Usage: %s <nb repetitions> <nb points X> <nb points Y>\n", argv[0]);
+260:       return EXIT_FAILURE;
+261:    }
+262: 
+263:    // Read arguments from command line
+264:    unsigned nrep = (unsigned) atoi (argv[1]);
+265:    unsigned nx   = (unsigned) atoi (argv[2]);
+266:    unsigned ny   = (unsigned) atoi (argv[3]);
+267: 
+268:    // Generate points and save them to a text file named "values.txt"
+269:    const char *input_file_name = "values.txt";
+270:    if (generate_random_values (input_file_name, nx, ny) != 0) {
+271:       fprintf (stderr, "Failed to write %u x %u coordinates to %s\n",
+272:                nx, ny, input_file_name);
+273:       return EXIT_FAILURE;
+274:    }
+275: 
+276:    sum_bytes = 0;
+277: 
+278:    // Main part: repeated nrep times
+279:    unsigned r;
+280:    for (r=0; r<nrep; r++) {
+281:       value_grid_t value_grid;
+282:       pos_val_grid_t pos_val_grid;
+283: 
+284:       // Load coordinates from disk to memory
+285:       if (load_values (input_file_name, &value_grid) != 0) {
+286:          fprintf (stderr, "Failed to load coordinates\n");
+287:          return EXIT_FAILURE;
+288:       }
+289: 
+290:       // Relate pairs to coordinates
+291:       load_positions (value_grid, &pos_val_grid);
+[...]
+298:       printf ("Max v1: x=%u, y=%u, v1=%f\n",
+299:               pos_v1_max->x, pos_v1_max->y, pos_v1_max->v1);
+300:       printf ("Max v2: x=%u, y=%u, v2=%f\n",
+[...]
+309:    remove (input_file_name);
+310: 
+311:    return EXIT_SUCCESS;
+312: }
+/usr/include/x86_64-linux-gnu/bits/stdio2.h: 105 - 112
+--------------------------------------------------------------------------------
+
+105:   return __fprintf_chk (__stream, __USE_FORTIFY_LEVEL - 1, __fmt,
+[...]
+112:   return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());

@@ -1,0 +1,3 @@
+name;time_p;time_s;cpi_ratio;
+/usr/lib/x86_64-linux-gnu/libc.so.6;57.4111328125;32.979866027832;;
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt0-compil/binaries/baseline.o;42.588478088379;24.464981079102;;

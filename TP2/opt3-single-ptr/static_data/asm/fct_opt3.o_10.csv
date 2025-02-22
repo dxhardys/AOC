@@ -1,0 +1,131 @@
+address;source_location;insn;indent
+0x1e20;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;ENDBR64;
+0x1e24;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;PUSH	%RBP;
+0x1e25;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;VMOVQ	%RDI,%XMM0;
+0x1e2a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;MOV	%RSP,%RBP;
+0x1e2d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;PUSH	%R15;
+0x1e2f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;PUSH	%R14;
+0x1e31;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;PUSH	%R13;
+0x1e33;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;PUSH	%R12;
+0x1e35;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;VPEXTRD	$0x1,%XMM0,%R12D;
+0x1e3b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;PUSH	%RBX;
+0x1e3c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;MOV	%EDI,%R13D;
+0x1e3f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:121;MOV	%R12D,%R14D;
+0x1e42;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;SUB	$0x8,%RSP;
+0x1e46;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:119;MOV	%RDI,(%RDX);
+0x1e49;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;MOV	%RDX,%R15;
+0x1e4c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:121;IMUL	%EDI,%R14D;
+0x1e50;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:118;MOV	%RSI,%RBX;
+0x1e53;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:121;SAL	$0x4,%R14;
+0x1e57;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:121;MOV	%R14,%RDI;
+0x1e5a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:121;CALL	1190 <.plt.sec@start+0x70>;
+0x1e5f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:121;MOV	%RAX,0x8(%R15);
+0x1e63;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:122;TEST	%RAX,%RAX;
+0x1e66;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:122;JE	1fe8 <load_positions+0x1c8>;
+0x1e6c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:126;ADD	%R14,0x31bd(%RIP);
+0x1e73;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;TEST	%R13D,%R13D;
+0x1e76;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;JE	1fd9 <load_positions+0x1b9>;
+0x1e7c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;MOV	%RAX,%RCX;
+0x1e7f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;XOR	%EDX,%EDX;
+0x1e81;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;VPXOR	%XMM8,%XMM8,%XMM8;
+0x1e86;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;TEST	%R12D,%R12D;
+0x1e89;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;JE	1fd9 <load_positions+0x1b9>;
+0x1e8f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;NOP;
+0x1e90;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;MOV	%R12D,%ESI;(7) 
+0x1e93;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;XOR	%R10D,%R10D;(7) 
+0x1e96;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;AND	$0x3,%ESI;(7) 
+0x1e99;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;JE	1f20 <load_positions+0x100>;(7) 
+0x1e9f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;CMP	$0x1,%ESI;(7) 
+0x1ea2;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;JE	1ef4 <load_positions+0xd4>;(7) 
+0x1ea4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;CMP	$0x2,%ESI;(7) 
+0x1ea7;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;JE	1ed0 <load_positions+0xb0>;(7) 
+0x1ea9;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;MOV	%EDX,%R8D;(7) 
+0x1eac;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VMOVD	%XMM8,%EDI;(7) 
+0x1eb0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;MOV	$0x1,%R10D;(7) 
+0x1eb6;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	(%RBX,%R8,8),%R9;(7) 
+0x1eba;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;MOV	%R8,%RAX;(7) 
+0x1ebd;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VMOVD	%EDI,%XMM1;(7) 
+0x1ec1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;SAL	$0x4,%RAX;(7) 
+0x1ec5;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;ADD	%RCX,%RAX;(7) 
+0x1ec8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VMOVQ	%XMM1,(%RAX);(7) 
+0x1ecc;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	%R9,0x8(%RAX);(7) 
+0x1ed0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;LEA	(%R10,%RDX,1),%R11D;(7) 
+0x1ed4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VPINSRD	$0x1,%R10D,%XMM8,%XMM2;(7) 
+0x1eda;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;INC	%R10D;(7) 
+0x1edd;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	(%RBX,%R11,8),%R14;(7) 
+0x1ee1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;MOV	%R11,%R15;(7) 
+0x1ee4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;SAL	$0x4,%R15;(7) 
+0x1ee8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;ADD	%RCX,%R15;(7) 
+0x1eeb;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VMOVQ	%XMM2,(%R15);(7) 
+0x1ef0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	%R14,0x8(%R15);(7) 
+0x1ef4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;LEA	(%R10,%RDX,1),%R8D;(7) 
+0x1ef8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VPINSRD	$0x1,%R10D,%XMM8,%XMM3;(7) 
+0x1efe;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;INC	%R10D;(7) 
+0x1f01;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	(%RBX,%R8,8),%RAX;(7) 
+0x1f05;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;MOV	%R8,%RSI;(7) 
+0x1f08;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;SAL	$0x4,%RSI;(7) 
+0x1f0c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;ADD	%RCX,%RSI;(7) 
+0x1f0f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VMOVQ	%XMM3,(%RSI);(7) 
+0x1f13;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	%RAX,0x8(%RSI);(7) 
+0x1f17;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;CMP	%R12D,%R10D;(7) 
+0x1f1a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;JE	1fc0 <load_positions+0x1a0>;(7) 
+0x1f20;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;LEA	(%R10,%RDX,1),%EDI;  (6) 
+0x1f24;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;LEA	0x1(%R10,%RDX,1),%R14D;  (6) 
+0x1f29;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;LEA	0x1(%R10),%R15D;  (6) 
+0x1f2d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VPINSRD	$0x1,%R10D,%XMM8,%XMM4;  (6) 
+0x1f33;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	(%RBX,%RDI,8),%R11;  (6) 
+0x1f37;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	(%RBX,%R14,8),%RSI;  (6) 
+0x1f3b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;MOV	%RDI,%R9;  (6) 
+0x1f3e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;MOV	%R14,%R8;  (6) 
+0x1f41;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;SAL	$0x4,%R9;  (6) 
+0x1f45;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;SAL	$0x4,%R8;  (6) 
+0x1f49;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;LEA	0x2(%R10,%RDX,1),%EDI;  (6) 
+0x1f4e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;LEA	0x3(%R10,%RDX,1),%R14D;  (6) 
+0x1f53;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;ADD	%RCX,%R9;  (6) 
+0x1f56;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;ADD	%RCX,%R8;  (6) 
+0x1f59;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VPINSRD	$0x1,%R15D,%XMM8,%XMM5;  (6) 
+0x1f5f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;LEA	0x2(%R10),%EAX;  (6) 
+0x1f63;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VMOVQ	%XMM4,(%R9);  (6) 
+0x1f68;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;LEA	0x3(%R10),%R15D;  (6) 
+0x1f6c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VPINSRD	$0x1,%EAX,%XMM8,%XMM6;  (6) 
+0x1f72;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;ADD	$0x4,%R10D;  (6) 
+0x1f76;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	%R11,0x8(%R9);  (6) 
+0x1f7a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	%RSI,0x8(%R8);  (6) 
+0x1f7e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	(%RBX,%RDI,8),%R11;  (6) 
+0x1f82;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VMOVQ	%XMM5,(%R8);  (6) 
+0x1f87;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;MOV	%RDI,%R9;  (6) 
+0x1f8a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;MOV	%R14,%R8;  (6) 
+0x1f8d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VPINSRD	$0x1,%R15D,%XMM8,%XMM7;  (6) 
+0x1f93;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	(%RBX,%R14,8),%RSI;  (6) 
+0x1f97;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;SAL	$0x4,%R9;  (6) 
+0x1f9b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;SAL	$0x4,%R8;  (6) 
+0x1f9f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;ADD	%RCX,%R9;  (6) 
+0x1fa2;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;ADD	%RCX,%R8;  (6) 
+0x1fa5;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VMOVQ	%XMM6,(%R9);  (6) 
+0x1faa;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	%R11,0x8(%R9);  (6) 
+0x1fae;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:131;VMOVQ	%XMM7,(%R8);  (6) 
+0x1fb3;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:133;MOV	%RSI,0x8(%R8);  (6) 
+0x1fb7;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;CMP	%R12D,%R10D;  (6) 
+0x1fba;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:129;JNE	1f20 <load_positions+0x100>;  (6) 
+0x1fc0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;VMOVD	%XMM8,%R10D;(7) 
+0x1fc5;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;ADD	%R12D,%EDX;(7) 
+0x1fc8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;INC	%R10D;(7) 
+0x1fcb;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;VMOVD	%R10D,%XMM8;(7) 
+0x1fd0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;CMP	%R13D,%R10D;(7) 
+0x1fd3;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:128;JNE	1e90 <load_positions+0x70>;(7) 
+0x1fd9;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:137;ADD	$0x8,%RSP;
+0x1fdd;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:137;POP	%RBX;
+0x1fde;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:137;POP	%R12;
+0x1fe0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:137;POP	%R13;
+0x1fe2;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:137;POP	%R14;
+0x1fe4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:137;POP	%R15;
+0x1fe6;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:137;POP	%RBP;
+0x1fe7;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:137;RET;
+0x1fe8;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	0x3031(%RIP),%RCX;
+0x1fef;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x11e8(%RIP),%RDI;
+0x1ff6;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x19,%EDX;
+0x1ffb;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x2000;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11d0 <.plt.sec@start+0xb0>;
+0x2005;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:124;MOV	$0x1,%EDI;
+0x200a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:124;CALL	11c0 <.plt.sec@start+0xa0>;
+0x200f;:0;NOP;

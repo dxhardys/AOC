@@ -1,0 +1,91 @@
+/usr/include/stdlib.h: 364 - 364
+--------------------------------------------------------------------------------
+
+364:   return (int) strtol (__nptr, (char **) NULL, 10);
+/usr/include/x86_64-linux-gnu/bits/stdio2.h: 105 - 112
+--------------------------------------------------------------------------------
+
+105:   return __fprintf_chk (__stream, __USE_FORTIFY_LEVEL - 1, __fmt,
+[...]
+112:   return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c: 209 - 320
+--------------------------------------------------------------------------------
+
+209:    qsort (pv_grid->entries, pv_grid->nx * pv_grid->ny,
+210:           sizeof (pv_grid->entries[0]), cmp_pv_entries_v1);
+211: 
+212:    return pv_grid->entries [pv_grid->nx * pv_grid->ny - 1];
+[...]
+220:    qsort (pv_grid->entries, pv_grid->nx * pv_grid->ny,
+221:           sizeof (pv_grid->entries[0]), cmp_pv_entries_v2);
+222: 
+223:    return pv_grid->entries [pv_grid->nx * pv_grid->ny - 1];
+[...]
+233:    for (i=0; i<pv_grid.nx; i++) {
+234:       for (j=0; j<pv_grid.ny; j++) {
+235:          free (pv_grid.entries [i * pv_grid.ny + j]);
+236:          sum_bytes -= sizeof *(pv_grid.entries[0]);
+237:       }
+238:    }
+239: 
+240:    free (pv_grid.entries);
+241:    sum_bytes -= pv_grid.nx * pv_grid.ny * sizeof pv_grid.entries[0];
+[...]
+251:    for (i=0; i<val_grid.nx; i++) {
+252:       for (j=0; j<val_grid.ny; j++) {
+253:          free (val_grid.entries[i * val_grid.ny + j]);
+254:          sum_bytes -= sizeof *(val_grid.entries[0]);
+255:       }
+256:    }
+257: 
+258:    free (val_grid.entries);
+259:    sum_bytes -= val_grid.nx * val_grid.ny * sizeof val_grid.entries[0];
+260: }
+261: 
+262: // Program entry point: CF comments on top of this file + README
+263: int main (int argc, char *argv[])
+264: {
+265:    // Check arguments number
+266:    if (argc < 4) {
+267:       fprintf (stderr, "Usage: %s <nb repetitions> <nb points X> <nb points Y>\n", argv[0]);
+268:       return EXIT_FAILURE;
+269:    }
+270: 
+271:    // Read arguments from command line
+272:    unsigned nrep = (unsigned) atoi (argv[1]);
+273:    unsigned nx   = (unsigned) atoi (argv[2]);
+274:    unsigned ny   = (unsigned) atoi (argv[3]);
+275: 
+276:    // Generate points and save them to a text file named "values.txt"
+277:    const char *input_file_name = "values.txt";
+278:    if (generate_random_values (input_file_name, nx, ny) != 0) {
+279:       fprintf (stderr, "Failed to write %u x %u coordinates to %s\n",
+280:                nx, ny, input_file_name);
+281:       return EXIT_FAILURE;
+282:    }
+283: 
+284:    sum_bytes = 0;
+285: 
+286:    // Main part: repeated nrep times
+287:    unsigned r;
+288:    for (r=0; r<nrep; r++) {
+289:       value_grid_t value_grid;
+290:       pos_val_grid_t pos_val_grid;
+291: 
+292:       // Load coordinates from disk to memory
+293:       if (load_values (input_file_name, &value_grid) != 0) {
+294:          fprintf (stderr, "Failed to load coordinates\n");
+295:          return EXIT_FAILURE;
+296:       }
+297: 
+298:       // Relate pairs to coordinates
+299:       load_positions (value_grid, &pos_val_grid);
+[...]
+306:       printf ("Max v1: x=%u, y=%u, v1=%f\n",
+307:               pos_v1_max->x, pos_v1_max->y, pos_v1_max->v1);
+308:       printf ("Max v2: x=%u, y=%u, v2=%f\n",
+[...]
+317:    remove (input_file_name);
+318: 
+319:    return EXIT_SUCCESS;
+320: }

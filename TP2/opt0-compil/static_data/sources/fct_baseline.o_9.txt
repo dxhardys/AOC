@@ -1,0 +1,14 @@
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/baseline.c: 184 - 194
+--------------------------------------------------------------------------------
+
+184: {
+185:    const pos_val_t *pva = *((const pos_val_t **) a);
+186:    const pos_val_t *pvb = *((const pos_val_t **) b);
+187: 
+188:    const float a_v2 = pva->v2;
+189:    const float b_v2 = pvb->v2;
+190: 
+191:    if (a_v2 < b_v2) return -1;
+192:    if (a_v2 > b_v2) return 1;
+193:    return 0;
+194: }

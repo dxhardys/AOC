@@ -1,0 +1,12 @@
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c: 59 - 63
+--------------------------------------------------------------------------------
+
+59:       for (j=0; j<ny; j++) {
+60:          const float v1 = (float) rand() / RAND_MAX;
+61:          const float v2 = (float) rand() / RAND_MAX;
+62: 
+63:          if (fprintf (fp, "%lf %lf\n", v1, v2) <= 0)
+/usr/include/x86_64-linux-gnu/bits/stdio2.h: 105 - 105
+--------------------------------------------------------------------------------
+
+105:   return __fprintf_chk (__stream, __USE_FORTIFY_LEVEL - 1, __fmt,

@@ -1,0 +1,17 @@
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c: 111 - 133
+--------------------------------------------------------------------------------
+
+111:     while (nb_inserted_values < total_values) {
+112:         // Parse current line (v1, v2) directly with fscanf
+113:         float v1, v2;
+114:         if (fscanf(fp, "%f %f", &v1, &v2) != 2) {
+[...]
+121:         value_t *new_value = malloc(sizeof(value_t));
+122:         if (new_value == NULL) {
+[...]
+128:         sum_bytes += sizeof(value_t);
+129:         new_value->v1 = v1;
+130:         new_value->v2 = v2;
+131: 
+132:         // Append the new value
+133:         val_grid->entries[nb_inserted_values++] = new_value;

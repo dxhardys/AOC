@@ -1,0 +1,1 @@
+maqao OV -R1 xp=opt1-scanf -- ./opt1.o 50 2000 3000 

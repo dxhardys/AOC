@@ -1,0 +1,6 @@
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/baseline.c: 226 - 228
+--------------------------------------------------------------------------------
+
+226:       for (j=0; j<pv_grid.ny; j++) {
+227:          free (pv_grid.entries [i * pv_grid.ny + j]);
+228:          sum_bytes -= sizeof *(pv_grid.entries[0]);

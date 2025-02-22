@@ -1,0 +1,62 @@
+{
+  "__fct":
+    {
+      "loops":
+        {
+          "_3":
+            {
+              "_4":
+                {
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c",
+                        "regions":
+                          [
+                            [
+                            59,
+                            63
+                            ]
+                          ]
+                      },
+                      {
+                        "path": "/usr/include/x86_64-linux-gnu/bits/stdio2.h",
+                        "regions":
+                          [
+                            [
+                            105,
+                            105
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "opt3.c:59-63"
+                },
+              "src_regions":
+                [
+                  {
+                    "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c",
+                    "regions":
+                      [
+                        [
+                        58,
+                        63
+                        ]
+                      ]
+                  },
+                  {
+                    "path": "/usr/include/x86_64-linux-gnu/bits/stdio2.h",
+                    "regions":
+                      [
+                        [
+                        105,
+                        105
+                        ]
+                      ]
+                  }
+                ],
+              "src": "opt3.c:58-63"
+            }
+        }
+    }
+}

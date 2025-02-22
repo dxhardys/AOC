@@ -1,0 +1,2 @@
+group_size;pattern;opcodes;offsets;addresses;stride_status;stride;memory_status;accessed_memory;accessed_memory_nooverlap;accessed_memory_overlap;span;head;unroll_factor;
+4;LLLL;VMULSS,VMULSS,VMULSS,VMULSS,;6096,6088,6180,6172,;0x1ab0,0x1ab8,0x1a5c,0x1a64,;RIP based value;0;Success;16;16;0;96;0;2;

@@ -1,0 +1,189 @@
+address;source_location;insn;indent
+0x1bf0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;ENDBR64;
+0x1bf4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;PUSH	%RBP;
+0x1bf5;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	%RDI,%RDX;
+0x1bf8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;MOV	%RSP,%RBP;
+0x1bfb;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;PUSH	%R15;
+0x1bfd;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;PUSH	%R14;
+0x1bff;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;PUSH	%R13;
+0x1c01;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;PUSH	%R12;
+0x1c03;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;PUSH	%RBX;
+0x1c04;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;MOV	%RSI,%R13;
+0x1c07;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;MOV	%RDI,%RBX;
+0x1c0a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;SUB	$0x48,%RSP;
+0x1c0e;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;LEA	0x15e9(%RIP),%RSI;
+0x1c15;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EDI;
+0x1c1a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;MOV	%FS:0x28,%RAX;
+0x1c23;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;MOV	%RAX,-0x38(%RBP);
+0x1c27;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:76;XOR	%EAX,%EAX;
+0x1c29;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;CALL	11b0 <.plt.sec@start+0x90>;
+0x1c2e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:80;LEA	0x15e1(%RIP),%RSI;
+0x1c35;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:80;MOV	%RBX,%RDI;
+0x1c38;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:80;CALL	11c0 <.plt.sec@start+0xa0>;
+0x1c3d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:81;TEST	%RAX,%RAX;
+0x1c40;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:81;JE	1ef2 <load_values+0x302>;
+0x1c46;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:81;MOV	%RAX,%R12;
+0x1c49;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:88;MOV	%RAX,%RDI;
+0x1c4c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:88;LEA	-0x44(%RBP),%RCX;
+0x1c50;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:88;XOR	%EAX,%EAX;
+0x1c52;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:88;LEA	-0x48(%RBP),%RDX;
+0x1c56;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:88;LEA	0x15cb(%RIP),%RSI;
+0x1c5d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:88;CALL	1140 <.plt.sec@start+0x20>;
+0x1c62;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:88;CMP	$0x2,%EAX;
+0x1c65;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:88;JNE	1e10 <load_values+0x220>;
+0x1c6b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:95;MOV	-0x48(%RBP),%EDX;
+0x1c6e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:96;MOV	-0x44(%RBP),%EAX;
+0x1c71;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:95;VMOVD	%EDX,%XMM1;
+0x1c75;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:99;IMUL	%EAX,%EDX;
+0x1c78;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:95;VPINSRD	$0x1,%EAX,%XMM1,%XMM0;
+0x1c7e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:95;VMOVQ	%XMM0,(%R13);
+0x1c84;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:100;MOV	%EDX,%ECX;
+0x1c86;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:99;MOV	%EDX,-0x64(%RBP);
+0x1c89;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:100;LEA	(,%RCX,8),%R14;
+0x1c91;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:100;MOV	%RCX,-0x60(%RBP);
+0x1c95;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:100;MOV	%R14,%RDI;
+0x1c98;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:100;CALL	11a0 <.plt.sec@start+0x80>;
+0x1c9d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:101;ADD	%R14,0x338c(%RIP);
+0x1ca4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:100;MOV	%RAX,0x8(%R13);
+0x1ca8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:103;TEST	%RAX,%RAX;
+0x1cab;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:103;JE	1ec8 <load_values+0x2d8>;
+0x1cb1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;LEA	-0x40(%RBP),%RSI;
+0x1cb5;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;XOR	%EBX,%EBX;
+0x1cb7;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;LEA	-0x3c(%RBP),%R15;
+0x1cbb;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;MOV	-0x64(%RBP),%EDI;
+0x1cbe;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;MOV	%RSI,-0x58(%RBP);
+0x1cc2;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;TEST	%EDI,%EDI;
+0x1cc4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;JE	1eb9 <load_values+0x2c9>;
+0x1cca;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;TESTB	$0x1,-0x60(%RBP);
+0x1cce;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;JNE	1dc5 <load_values+0x1d5>;
+0x1cd4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;MOV	%RSI,%RDX;
+0x1cd7;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;XOR	%EAX,%EAX;
+0x1cd9;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;MOV	%R15,%RCX;
+0x1cdc;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;LEA	0x1566(%RIP),%RSI;
+0x1ce3;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;MOV	%R12,%RDI;
+0x1ce6;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;CALL	1140 <.plt.sec@start+0x20>;
+0x1ceb;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;CMP	$0x2,%EAX;
+0x1cee;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;JNE	1de6 <load_values+0x1f6>;
+0x1cf4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:121;MOV	$0x8,%EDI;
+0x1cf9;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:121;CALL	11a0 <.plt.sec@start+0x80>;
+0x1cfe;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:122;TEST	%RAX,%RAX;
+0x1d01;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:122;JE	1ec8 <load_values+0x2d8>;
+0x1d07;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:129;VMOVSS	-0x40(%RBP),%XMM2;
+0x1d0c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:133;MOV	0x8(%R13),%R8;
+0x1d10;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:133;MOV	$0x1,%EBX;
+0x1d15;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:129;VINSERTPS	$0x10,-0x3c(%RBP),%XMM2,%XMM3;
+0x1d1c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:128;ADDQ	$0x8,0x330c(%RIP);
+0x1d24;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:129;VMOVLPS	%XMM3,(%RAX);
+0x1d28;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:133;MOV	%RAX,(%R8);
+0x1d2b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;JMP	1dc5 <load_values+0x1d5>;
+0x1d30;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:121;MOV	$0x8,%EDI;(7) 
+0x1d35;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:121;CALL	11a0 <.plt.sec@start+0x80>;(7) 
+0x1d3a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:122;TEST	%RAX,%RAX;(7) 
+0x1d3d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:122;JE	1ec8 <load_values+0x2d8>;(7) 
+0x1d43;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:129;VMOVSS	-0x40(%RBP),%XMM4;(7) 
+0x1d48;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:133;MOV	0x8(%R13),%R9;(7) 
+0x1d4c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;LEA	0x1(%RBX),%R14;(7) 
+0x1d50;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:129;VINSERTPS	$0x10,-0x3c(%RBP),%XMM4,%XMM5;(7) 
+0x1d57;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:128;ADDQ	$0x8,0x32d1(%RIP);(7) 
+0x1d5f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:129;VMOVLPS	%XMM5,(%RAX);(7) 
+0x1d63;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:133;MOV	%RAX,(%R9,%RBX,8);(7) 
+0x1d67;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;CMP	%R14,-0x60(%RBP);(7) 
+0x1d6b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:111;JE	1e70 <load_values+0x280>;(7) 
+0x1d71;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;XOR	%EAX,%EAX;(7) 
+0x1d73;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;MOV	%R15,%RCX;(7) 
+0x1d76;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;LEA	0x14cc(%RIP),%RSI;(7) 
+0x1d7d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;MOV	-0x58(%RBP),%RDX;(7) 
+0x1d81;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;MOV	%R12,%RDI;(7) 
+0x1d84;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;CALL	1140 <.plt.sec@start+0x20>;(7) 
+0x1d89;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;CMP	$0x2,%EAX;(7) 
+0x1d8c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;JNE	1de6 <load_values+0x1f6>;(7) 
+0x1d8e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:121;MOV	$0x8,%EDI;(7) 
+0x1d93;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:121;CALL	11a0 <.plt.sec@start+0x80>;(7) 
+0x1d98;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:122;TEST	%RAX,%RAX;(7) 
+0x1d9b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:122;JE	1ec8 <load_values+0x2d8>;(7) 
+0x1da1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:129;VMOVSS	-0x40(%RBP),%XMM6;(7) 
+0x1da6;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:133;MOV	0x8(%R13),%R10;(7) 
+0x1daa;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:133;ADD	$0x2,%RBX;(7) 
+0x1dae;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:129;VINSERTPS	$0x10,-0x3c(%RBP),%XMM6,%XMM7;(7) 
+0x1db5;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:128;ADDQ	$0x8,0x3273(%RIP);(7) 
+0x1dbd;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:129;VMOVLPS	%XMM7,(%RAX);(7) 
+0x1dc1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:133;MOV	%RAX,(%R10,%R14,8);(7) 
+0x1dc5;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;XOR	%EAX,%EAX;(7) 
+0x1dc7;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;MOV	%R15,%RCX;(7) 
+0x1dca;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;LEA	0x1478(%RIP),%RSI;(7) 
+0x1dd1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;MOV	%R12,%RDI;(7) 
+0x1dd4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;MOV	-0x58(%RBP),%RDX;(7) 
+0x1dd8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;CALL	1140 <.plt.sec@start+0x20>;(7) 
+0x1ddd;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;CMP	$0x2,%EAX;(7) 
+0x1de0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:114;JE	1d30 <load_values+0x140>;(7) 
+0x1de6;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	0x3233(%RIP),%RCX;
+0x1ded;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x2b,%EDX;
+0x1df2;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x1df7;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x1272(%RIP),%RDI;
+0x1dfe;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11d0 <.plt.sec@start+0xb0>;
+0x1e03;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:116;MOV	%R12,%RDI;
+0x1e06;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:116;CALL	1170 <.plt.sec@start+0x50>;
+0x1e0b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:117;JMP	1e35 <load_values+0x245>;
+0x1e0d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:117;NOPL	(%RAX);
+0x1e10;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	0x3209(%RIP),%RCX;
+0x1e17;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x121a(%RIP),%RDI;
+0x1e1e;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x33,%EDX;
+0x1e23;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x1e28;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11d0 <.plt.sec@start+0xb0>;
+0x1e2d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:90;MOV	%R12,%RDI;
+0x1e30;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:90;CALL	1170 <.plt.sec@start+0x50>;
+0x1e35;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:91;MOV	$0x1,%EAX;
+0x1e3a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:91;NOPW	(%RAX,%RAX,1);
+0x1e40;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;MOV	-0x38(%RBP),%RDX;
+0x1e44;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;SUB	%FS:0x28,%RDX;
+0x1e4d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;JNE	1f17 <load_values+0x327>;
+0x1e53;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;ADD	$0x48,%RSP;
+0x1e57;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;POP	%RBX;
+0x1e58;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;POP	%R12;
+0x1e5a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;POP	%R13;
+0x1e5c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;POP	%R14;
+0x1e5e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;POP	%R15;
+0x1e60;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;POP	%RBP;
+0x1e61;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;RET;
+0x1e62;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;NOPW	%CS:(%RAX,%RAX,1);
+0x1e6d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;NOPL	(%RAX);
+0x1e70;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:137;MOV	%R12,%RDI;
+0x1e73;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:133;INC	%EBX;
+0x1e75;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:137;CALL	1170 <.plt.sec@start+0x50>;
+0x1e7a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:140;CMP	%EBX,-0x64(%RBP);
+0x1e7d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:140;JNE	1e90 <load_values+0x2a0>;
+0x1e7f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:146;XOR	%EAX,%EAX;
+0x1e81;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:146;JMP	1e40 <load_values+0x250>;
+0x1e83;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:146;NOPW	%CS:(%RAX,%RAX,1);
+0x1e8e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:146;XCHG	%AX,%AX;
+0x1e90;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	-0x44(%RBP),%R9D;
+0x1e94;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	-0x48(%RBP),%R8D;
+0x1e98;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%EBX,%ECX;
+0x1e9a;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x11ff(%RIP),%RDX;
+0x1ea1;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	0x3178(%RIP),%RDI;
+0x1ea8;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x1ead;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;XOR	%EAX,%EAX;
+0x1eaf;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11e0 <.plt.sec@start+0xc0>;
+0x1eb4;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:143;JMP	1e35 <load_values+0x245>;
+0x1eb9;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:137;MOV	%R12,%RDI;
+0x1ebc;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:137;CALL	1170 <.plt.sec@start+0x50>;
+0x1ec1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:146;XOR	%EAX,%EAX;
+0x1ec3;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:146;JMP	1e40 <load_values+0x250>;
+0x1ec8;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	0x3151(%RIP),%RCX;
+0x1ecf;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1a,%EDX;
+0x1ed4;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x1ed9;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x134e(%RIP),%RDI;
+0x1ee0;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11d0 <.plt.sec@start+0xb0>;
+0x1ee5;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:105;MOV	%R12,%RDI;
+0x1ee8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:105;CALL	1170 <.plt.sec@start+0x50>;
+0x1eed;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:106;JMP	1e35 <load_values+0x245>;
+0x1ef2;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	0x3127(%RIP),%RDI;
+0x1ef9;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%RBX,%RCX;
+0x1efc;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x1315(%RIP),%RDX;
+0x1f03;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x1f08;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;XOR	%EAX,%EAX;
+0x1f0a;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11e0 <.plt.sec@start+0xc0>;
+0x1f0f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:83;OR	$-0x1,%EAX;
+0x1f12;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:83;JMP	1e40 <load_values+0x250>;
+0x1f17;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c:147;CALL	1180 <.plt.sec@start+0x60>;
+0x1f1c;:0;NOPL	(%RAX);

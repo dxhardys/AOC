@@ -1,0 +1,138 @@
+address;source_location;insn;indent
+0x1930;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;ENDBR64;
+0x1934;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;PUSH	%RBP;
+0x1935;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	%RDI,%R8;
+0x1938;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	%EDX,%ECX;
+0x193a;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;XOR	%EAX,%EAX;
+0x193c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;MOV	%RSP,%RBP;
+0x193f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;PUSH	%R15;
+0x1941;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;PUSH	%R14;
+0x1943;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;PUSH	%R13;
+0x1945;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;PUSH	%R12;
+0x1947;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;PUSH	%RBX;
+0x1948;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;MOV	%EDX,%R15D;
+0x194b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;MOV	%RDI,%RBX;
+0x194e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;SUB	$0x18,%RSP;
+0x1952;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	%ESI,%EDX;
+0x1954;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:42;MOV	%ESI,-0x34(%RBP);
+0x1957;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;MOV	$0x1,%EDI;
+0x195c;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;LEA	0x16a5(%RIP),%RSI;
+0x1963;/usr/include/x86_64-linux-gnu/bits/stdio2.h:112;CALL	11a0 <.plt.sec@start+0x80>;
+0x1968;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:46;LEA	0x181c(%RIP),%RSI;
+0x196f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:46;MOV	%RBX,%RDI;
+0x1972;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:46;CALL	11b0 <.plt.sec@start+0x90>;
+0x1977;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:47;TEST	%RAX,%RAX;
+0x197a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:47;JE	1b28 <generate_random_values+0x1f8>;
+0x1980;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	-0x34(%RBP),%ECX;
+0x1983;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%RAX,%R13;
+0x1986;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%RAX,%RDI;
+0x1989;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%R15D,%R8D;
+0x198c;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;XOR	%EAX,%EAX;
+0x198e;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x1809(%RIP),%RDX;
+0x1995;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x199a;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11e0 <.plt.sec@start+0xc0>;
+0x199f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:53;TEST	%EAX,%EAX;
+0x19a1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:53;JLE	1ae3 <generate_random_values+0x1b3>;
+0x19a7;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:58;MOV	-0x34(%RBP),%EAX;
+0x19aa;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:58;TEST	%EAX,%EAX;
+0x19ac;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:58;JE	1b0f <generate_random_values+0x1df>;
+0x19b2;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;MOVL	$0,-0x38(%RBP);
+0x19b9;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;LEA	0x17e5(%RIP),%R14;
+0x19c0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;TEST	%R15D,%R15D;
+0x19c3;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;JE	1b0f <generate_random_values+0x1df>;
+0x19c9;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;XOR	%R12D,%R12D;(3) 
+0x19cc;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;TEST	$0x1,%R15B;(3) 
+0x19d0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;JE	1a95 <generate_random_values+0x165>;(3) 
+0x19d6;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;CALL	11f0 <.plt.sec@start+0xd0>;(3) 
+0x19db;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;MOV	%EAX,%R12D;(3) 
+0x19de;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;CALL	11f0 <.plt.sec@start+0xd0>;(3) 
+0x19e3;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;VXORPS	%XMM3,%XMM3,%XMM3;(3) 
+0x19e7;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%R14,%RDX;(3) 
+0x19ea;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;VCVTSI2SS	%EAX,%XMM3,%XMM1;(3) 
+0x19ee;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;VCVTSI2SS	%R12D,%XMM3,%XMM0;(3) 
+0x19f3;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;VMULSS	0x188d(%RIP),%XMM1,%XMM2;(3) 
+0x19fb;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;VMULSS	0x1885(%RIP),%XMM0,%XMM4;(3) 
+0x1a03;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;(3) 
+0x1a08;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%R13,%RDI;(3) 
+0x1a0b;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x2,%EAX;(3) 
+0x1a10;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:63;VCVTSS2SD	%XMM4,%XMM4,%XMM0;(3) 
+0x1a14;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;VCVTSS2SD	%XMM2,%XMM2,%XMM1;(3) 
+0x1a18;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11e0 <.plt.sec@start+0xc0>;(3) 
+0x1a1d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:63;TEST	%EAX,%EAX;(3) 
+0x1a1f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:63;JLE	1ae3 <generate_random_values+0x1b3>;(3) 
+0x1a25;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;MOV	$0x1,%R12D;(3) 
+0x1a2b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;CMP	$0x1,%R15D;(3) 
+0x1a2f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;JNE	1a95 <generate_random_values+0x165>;(3) 
+0x1a31;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;JMP	1b00 <generate_random_values+0x1d0>;(3) 
+0x1a36;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;NOPW	%CS:(%RAX,%RAX,1);
+0x1a40;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;CALL	11f0 <.plt.sec@start+0xd0>;  (4) 
+0x1a45;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;MOV	%EAX,%EBX;  (4) 
+0x1a47;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;CALL	11f0 <.plt.sec@start+0xd0>;  (4) 
+0x1a4c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;VXORPS	%XMM10,%XMM10,%XMM10;  (4) 
+0x1a51;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%R14,%RDX;  (4) 
+0x1a54;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;VCVTSI2SS	%EAX,%XMM10,%XMM11;  (4) 
+0x1a58;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;VCVTSI2SS	%EBX,%XMM10,%XMM13;  (4) 
+0x1a5c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;VMULSS	0x1824(%RIP),%XMM11,%XMM12;  (4) 
+0x1a64;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;VMULSS	0x181c(%RIP),%XMM13,%XMM14;  (4) 
+0x1a6c;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;  (4) 
+0x1a71;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%R13,%RDI;  (4) 
+0x1a74;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x2,%EAX;  (4) 
+0x1a79;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:63;VCVTSS2SD	%XMM14,%XMM14,%XMM0;  (4) 
+0x1a7e;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;VCVTSS2SD	%XMM12,%XMM12,%XMM1;  (4) 
+0x1a83;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11e0 <.plt.sec@start+0xc0>;  (4) 
+0x1a88;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:63;TEST	%EAX,%EAX;  (4) 
+0x1a8a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:63;JLE	1ae3 <generate_random_values+0x1b3>;  (4) 
+0x1a8c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;ADD	$0x2,%R12D;  (4) 
+0x1a90;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;CMP	%R12D,%R15D;  (4) 
+0x1a93;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:59;JE	1b00 <generate_random_values+0x1d0>;  (4) 
+0x1a95;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;CALL	11f0 <.plt.sec@start+0xd0>;  (4) 
+0x1a9a;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;MOV	%EAX,%EBX;  (4) 
+0x1a9c;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;CALL	11f0 <.plt.sec@start+0xd0>;  (4) 
+0x1aa1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;VXORPS	%XMM5,%XMM5,%XMM5;  (4) 
+0x1aa5;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%R14,%RDX;  (4) 
+0x1aa8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;VCVTSI2SS	%EAX,%XMM5,%XMM6;  (4) 
+0x1aac;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;VCVTSI2SS	%EBX,%XMM5,%XMM8;  (4) 
+0x1ab0;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:61;VMULSS	0x17d0(%RIP),%XMM6,%XMM7;  (4) 
+0x1ab8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:60;VMULSS	0x17c8(%RIP),%XMM8,%XMM9;  (4) 
+0x1ac0;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;  (4) 
+0x1ac5;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%R13,%RDI;  (4) 
+0x1ac8;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x2,%EAX;  (4) 
+0x1acd;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:63;VCVTSS2SD	%XMM9,%XMM9,%XMM0;  (4) 
+0x1ad2;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;VCVTSS2SD	%XMM7,%XMM7,%XMM1;  (4) 
+0x1ad6;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11e0 <.plt.sec@start+0xc0>;  (4) 
+0x1adb;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:63;TEST	%EAX,%EAX;  (4) 
+0x1add;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:63;JG	1a40 <generate_random_values+0x110>;  (4) 
+0x1ae3;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:54;MOV	$-0x2,%EAX;
+0x1ae8;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;ADD	$0x18,%RSP;
+0x1aec;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%RBX;
+0x1aed;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%R12;
+0x1aef;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%R13;
+0x1af1;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%R14;
+0x1af3;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%R15;
+0x1af5;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%RBP;
+0x1af6;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;RET;
+0x1af7;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;NOPW	(%RAX,%RAX,1);
+0x1b00;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:58;INCL	-0x38(%RBP);(3) 
+0x1b03;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:58;MOV	-0x38(%RBP),%EDX;(3) 
+0x1b06;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:58;CMP	%EDX,-0x34(%RBP);(3) 
+0x1b09;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:58;JNE	19c9 <generate_random_values+0x99>;(3) 
+0x1b0f;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:69;MOV	%R13,%RDI;
+0x1b12;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:69;CALL	1160 <.plt.sec@start+0x40>;
+0x1b17;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;ADD	$0x18,%RSP;
+0x1b1b;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:71;XOR	%EAX,%EAX;
+0x1b1d;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%RBX;
+0x1b1e;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%R12;
+0x1b20;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%R13;
+0x1b22;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%R14;
+0x1b24;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%R15;
+0x1b26;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;POP	%RBP;
+0x1b27;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:72;RET;
+0x1b28;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	0x34f1(%RIP),%RDI;
+0x1b2f;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	%RBX,%RCX;
+0x1b32;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;LEA	0x1654(%RIP),%RDX;
+0x1b39;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;MOV	$0x1,%ESI;
+0x1b3e;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;XOR	%EAX,%EAX;
+0x1b40;/usr/include/x86_64-linux-gnu/bits/stdio2.h:105;CALL	11e0 <.plt.sec@start+0xc0>;
+0x1b45;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:49;OR	$-0x1,%EAX;
+0x1b48;/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c:49;JMP	1ae8 <generate_random_values+0x1b8>;
+0x1b4a;:0;NOPW	(%RAX,%RAX,1);

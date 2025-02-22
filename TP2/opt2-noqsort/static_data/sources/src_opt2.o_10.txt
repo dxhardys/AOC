@@ -1,0 +1,14 @@
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c: 161 - 171
+--------------------------------------------------------------------------------
+
+161:       for (j=0; j<src.ny; j++) {
+162:          const value_t *src_val = src.entries [i * src.ny + j];
+163: 
+164:          pos_val_t *new_pos_val = malloc (sizeof new_pos_val[0]);
+165:          sum_bytes += sizeof *new_pos_val;
+166:          new_pos_val->x  = i;
+167:          new_pos_val->y  = j;
+168:          new_pos_val->v1 = src_val->v1;
+169:          new_pos_val->v2 = src_val->v2;
+170: 
+171:          dst->entries [i * src.ny + j] = new_pos_val;

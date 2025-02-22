@@ -1,0 +1,2 @@
+group_size;pattern;opcodes;offsets;addresses;stride_status;stride;memory_status;accessed_memory;accessed_memory_nooverlap;accessed_memory_overlap;span;head;unroll_factor;
+8;LLLLLLLL;VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,VMOVSS,;12,28,44,60,76,92,108,124,;0x15d6,0x15db,0x15e7,0x15ec,0x15f9,0x15fe,0x160b,0x1610,;Success;128;Success;32;32;0;116;0;8;

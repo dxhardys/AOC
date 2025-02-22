@@ -1,0 +1,26 @@
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/baseline.c: 144 - 166
+--------------------------------------------------------------------------------
+
+144: {
+145:    dst->nx = src.nx;
+146:    dst->ny = src.ny;
+147: 
+148:    sum_bytes += src.nx * src.ny * sizeof dst->entries[0];
+149:    dst->entries = malloc (src.nx * src.ny * sizeof dst->entries[0]);
+150: 
+151:    unsigned i, j;
+152:    for (i=0; i<src.nx; i++) {
+153:       for (j=0; j<src.ny; j++) {
+154:          const value_t *src_val = src.entries [i * src.ny + j];
+155: 
+156:          pos_val_t *new_pos_val = malloc (sizeof new_pos_val[0]);
+157:          sum_bytes += sizeof *new_pos_val;
+158:          new_pos_val->x  = i;
+159:          new_pos_val->y  = j;
+160:          new_pos_val->v1 = src_val->v1;
+161:          new_pos_val->v2 = src_val->v2;
+162: 
+163:          dst->entries [i * src.ny + j] = new_pos_val;
+164:       }
+165:    }
+166: }

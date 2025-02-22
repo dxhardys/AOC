@@ -1,0 +1,20 @@
+********************************************************************************
+MAQAO 2.21.1 - e8dbe5fa2b4bcfbd78ce7e9675bfc683121e6bf6::20250219-212851 || 2025/02/19
+maqao OV -R1 xp=opt1-scanf -- ./opt1.o 10 2000 3000 
+CPY:  [true] ./opt1.o --> /home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1-scanf/binaries/opt1.o
+CMD:   /usr/local/bin/maqao lprof _caller=oneview  --xp="/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1-scanf/tools/lprof_npsu_run_0" --mpi-command="" --collect-CPU-time-intervals --collect-topology   -- /home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1-scanf/binaries/opt1.o  10 2000 3000
+1 functions were discarded from static analysis because their coverage
+are lower than object_coverage_threshold value (0.01%).
+That represents 0.0093773938715458% of the execution time. To include them, change the value
+in the experiment directory configuration file, then rerun the command with the additionnal parameter
+--force-static-analysis
+CMD:  /usr/local/bin/maqao otter  -input=/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1-scanf/OTTER/input_manifest.csv -output=/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1-scanf/OTTER/output_manifest.csv --reduce-threads-files=on
+********************************************************************************
+MAQAO 2.21.1 - e8dbe5fa2b4bcfbd78ce7e9675bfc683121e6bf6::20250219-212851 || 2025/02/19
+maqao OV -R1 xp=opt1-scanf -- ./opt1.o 50 2000 3000 
+1 functions were discarded from static analysis because their coverage
+are lower than object_coverage_threshold value (0.01%).
+That represents 0.0093773938715458% of the execution time. To include them, change the value
+in the experiment directory configuration file, then rerun the command with the additionnal parameter
+--force-static-analysis
+CMD:  /usr/local/bin/maqao otter  -input=/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1-scanf/OTTER/input_manifest.csv -output=/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1-scanf/OTTER/output_manifest.csv --reduce-threads-files=on

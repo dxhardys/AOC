@@ -1,0 +1,127 @@
+{
+  "__fct":
+    {
+      "loops":
+        {
+          "_0":
+            {
+              "_2":
+                {
+                  "_1":
+                    {
+                      "src_regions":
+                        [
+                          {
+                            "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/baseline.c",
+                            "regions":
+                              [
+                                [
+                                244,
+                                246
+                                ]
+                              ]
+                          }
+                        ],
+                      "src": "baseline.c:244-246"
+                    },
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/baseline.c",
+                        "regions":
+                          [
+                            [
+                            243,
+                            246
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "baseline.c:243-246"
+                },
+              "_4":
+                {
+                  "_3":
+                    {
+                      "src_regions":
+                        [
+                          {
+                            "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/baseline.c",
+                            "regions":
+                              [
+                                [
+                                226,
+                                228
+                                ]
+                              ]
+                          }
+                        ],
+                      "src": "baseline.c:226-228"
+                    },
+                  "src_regions":
+                    [
+                      {
+                        "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/baseline.c",
+                        "regions":
+                          [
+                            [
+                            225,
+                            228
+                            ]
+                          ]
+                      }
+                    ],
+                  "src": "baseline.c:225-228"
+                },
+              "src_regions":
+                [
+                  {
+                    "path": "/home/sofiane/AOC/tp-rendu/aoc-tp-2/baseline.c",
+                    "regions":
+                      [
+                        [
+                        201,
+                        204
+                        ],
+                        [
+                        212,
+                        215
+                        ],
+                        [
+                        225,
+                        233
+                        ],
+                        [
+                        243,
+                        251
+                        ],
+                        [
+                        280,
+                        285
+                        ],
+                        [
+                        291,
+                        291
+                        ],
+                        [
+                        298,
+                        300
+                        ]
+                      ]
+                  },
+                  {
+                    "path": "/usr/include/x86_64-linux-gnu/bits/stdio2.h",
+                    "regions":
+                      [
+                        [
+                        112,
+                        112
+                        ]
+                      ]
+                  }
+                ],
+              "src": "baseline.c:201-300"
+            }
+        }
+    }
+}

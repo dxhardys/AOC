@@ -1,0 +1,7 @@
+ID;Module;Source Location;Source Function;Level;Max Time Over Threads (s);Time w.r.t. Wall Time (s);Coverage (% app. time);Speedup if no scalar integer;Speedup if FP arith vectorized;Speedup if fully vectorized;Speedup if FP only;Number of paths;Vectorization Ratio (%);Vectorization Efficiency (%);CQA cycles;CQA cycles if no scalar integer;CQA cycles if FP arith vectorized;CQA cycles if fully vectorized;CQA cycles if FP only
+Loop 8;baseline.o;baseline.c:106-109,baseline.c:116-127,stdio2.h:266-266;load_values;Single;0.14999997615814;0.14999997615814;0.26111897826195;8.17;1.00;6.32;8.17;1;5.88;21.32;8.17;1.00;8.17;1.29;1.00
+Loop 9;baseline.o;baseline.c:153-163;load_positions;Innermost;0.11999996751547;0.11999996751547;0.20889516174793;5.33;1.00;5.63;21.33;1;0.00;21.38;21.33;4.00;21.33;3.79;1.00
+Loop 1;baseline.o;baseline.c:244-246;main;Innermost;0.014999996870756;0.014999997802079;0.026111897081137;1.00;1.00;4.00;12.33;1;0.00;25.00;12.33;12.33;12.33;3.08;1.00
+Loop 3;baseline.o;baseline.c:226-228;main;Innermost;0.0099999979138374;0.0099999979138374;0.017407931387424;1.00;1.00;4.00;12.33;1;0.00;25.00;12.33;12.33;12.33;3.08;1.00
+Loop 6;baseline.o;baseline.c:59-63,stdio2.h:105-105;generate_random_values;Innermost;0.0099999979138374;0.0099999979138374;0.017407931387424;2.92;2.31;8.00;5.83;1;8.00;17.50;11.67;4.00;5.05;1.46;2.00
+Loop 10;baseline.o;baseline.c:152-160,baseline.c:163-163;load_positions;Outermost;0.0049999989569187;0.0049999989569187;0.0087039656937122;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA;NA

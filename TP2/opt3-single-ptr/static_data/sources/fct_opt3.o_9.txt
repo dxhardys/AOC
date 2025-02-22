@@ -1,0 +1,50 @@
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c: 74 - 114
+--------------------------------------------------------------------------------
+
+74: int load_values(const char *file_name, value_grid_t *val_grid) {
+75:     printf("Load values from %s...\n", file_name);
+76: 
+77:     // Open input file
+78:     FILE *fp = fopen(file_name, "r");
+79:     if (!fp) {
+80:         fprintf(stderr, "Cannot read %s\n", file_name);
+81:         return -1;
+82:     }
+83: 
+84:     // Read grid size (first line)
+85:     if (fscanf(fp, "%u %u", &val_grid->nx, &val_grid->ny) != 2) {
+86:         fprintf(stderr, "Failed to parse the first line from the input file\n");
+87:         fclose(fp);
+88:         return 1;
+89:     }
+90: 
+91:     unsigned total_values = val_grid->nx * val_grid->ny;
+92: 
+93:     val_grid->entries = malloc(total_values * sizeof(value_t));
+94:     if (!val_grid->entries) {
+95:         fprintf(stderr, "Memory allocation failed\n");
+96:         fclose(fp);
+97:         return -1;
+98:     }
+99:     sum_bytes += total_values * sizeof(value_t);
+100: 
+101:     for (unsigned i = 0; i < total_values; i++) {
+102:         if (fscanf(fp, "%f %f", &val_grid->entries[i].v1, &val_grid->entries[i].v2) != 2) {
+103:             fprintf(stderr, "Failed to parse a line from the input file\n");
+104:             free(val_grid->entries);
+105:             fclose(fp);
+106:             return 1;
+107:         }
+108:     }
+109: 
+110:     // Close file
+111:     fclose(fp);
+112: 
+113:     return 0;
+114: }
+/usr/include/x86_64-linux-gnu/bits/stdio2.h: 105 - 112
+--------------------------------------------------------------------------------
+
+105:   return __fprintf_chk (__stream, __USE_FORTIFY_LEVEL - 1, __fmt,
+[...]
+112:   return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());

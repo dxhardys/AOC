@@ -1,0 +1,6 @@
+loop_id;module;function_name;function_id;source_info;level;inc_time_p;inc_time_s;inc_time_s_min;inc_time_s_avg;inc_time_s_max;inc_cov_deviation;inc_time_deviation;exc_time_p;exc_time_s;exc_time_s_min;exc_time_s_avg;exc_time_s_max;exc_cov_deviation;exc_time_deviation;nb_threads;flops;
+6;opt3.o;load_positions;10;opt3.c:129-133;Innermost;0.54944920539856;0.064999990165234;;;;;;0.54944920539856;0.064999990165234;;;;;;;;
+1;opt3.o;main;1;opt3.c:146-148;Innermost;0.33812260627747;0.03999999165535;;;;;;0.33812260627747;0.03999999165535;;;;;;;;
+2;opt3.o;main;1;opt3.c:163-165;Innermost;0.33812257647514;0.03999999165535;;;;;;0.33812257647514;0.03999999165535;;;;;;;;
+5;opt3.o;load_values;9;opt3.c:101-102;Single;0.16906130313873;0.019999995827675;;;;;;0.16906130313873;0.019999995827675;;;;;;;;
+4;opt3.o;generate_random_values;8;opt3.c:59-63,stdio2.h:105-105;Innermost;0.084530651569366;0.0099999979138374;;;;;;0.084530651569366;0.0099999979138374;;;;;;;;

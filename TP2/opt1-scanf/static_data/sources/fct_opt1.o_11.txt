@@ -1,0 +1,77 @@
+/usr/include/x86_64-linux-gnu/bits/stdio2.h: 105 - 112
+--------------------------------------------------------------------------------
+
+105:   return __fprintf_chk (__stream, __USE_FORTIFY_LEVEL - 1, __fmt,
+[...]
+112:   return __printf_chk (__USE_FORTIFY_LEVEL - 1, __fmt, __va_arg_pack ());
+/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt1.c: 76 - 147
+--------------------------------------------------------------------------------
+
+76: {
+77:     printf("Load values from %s...\n", file_name);
+78: 
+79:     // Open input file (containing one coordinate per line)
+80:     FILE *fp = fopen(file_name, "r");
+81:     if (!fp) {
+82:         fprintf(stderr, "Cannot read %s\n", file_name);
+83:         return -1;
+84:     }
+85: 
+86:     // Load grid size from input file (first line)
+87:     unsigned nx, ny;
+88:     if (fscanf(fp, "%u %u", &nx, &ny) != 2) {
+89:         fprintf(stderr, "Failed to parse the first line from the input file\n");
+90:         fclose(fp);
+91:         return 1;
+92:     }
+93: 
+94:     // Update output array length
+95:     val_grid->nx = nx;
+96:     val_grid->ny = ny;
+97: 
+98:     // Allocate memory for the grid at once, instead of reallocating on every iteration
+99:     unsigned total_values = nx * ny;
+100:     val_grid->entries = malloc(total_values * sizeof(value_t*));  // Allocation for pointers to value_t
+101:     sum_bytes += total_values * sizeof(value_t*);
+102: 
+103:     if (val_grid->entries == NULL) {
+104:         fprintf(stderr, "Memory allocation failed!\n");
+105:         fclose(fp);
+106:         return 1;
+107:     }
+108: 
+109:     // Load pairs from input file (one per line)
+110:     unsigned nb_inserted_values = 0;
+111:     while (nb_inserted_values < total_values) {
+112:         // Parse current line (v1, v2) directly with fscanf
+113:         float v1, v2;
+114:         if (fscanf(fp, "%f %f", &v1, &v2) != 2) {
+115:             fprintf(stderr, "Failed to parse a line from the input file\n");
+116:             fclose(fp);
+117:             return 1;
+118:         }
+119: 
+120:         // Allocate and set value_t in the entries array
+121:         value_t *new_value = malloc(sizeof(value_t));
+122:         if (new_value == NULL) {
+[...]
+128:         sum_bytes += sizeof(value_t);
+129:         new_value->v1 = v1;
+130:         new_value->v2 = v2;
+131: 
+132:         // Append the new value
+133:         val_grid->entries[nb_inserted_values++] = new_value;
+134:     }
+135: 
+136:     // Close input file
+137:     fclose(fp);
+138: 
+139:     // Check if the number of inserted values matches the grid size
+140:     if (nb_inserted_values != total_values) {
+141:         fprintf(stderr, "Mismatch between the number of parsed values (%u) and the grid size (%u x %u)\n",
+142:                 nb_inserted_values, nx, ny);
+143:         return 1;
+144:     }
+145: 
+146:     return 0;
+147: }
