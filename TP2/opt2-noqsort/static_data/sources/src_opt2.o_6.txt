@@ -1,6 +1,0 @@
-/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c: 226 - 228
---------------------------------------------------------------------------------
-
-226:     for (unsigned i = 1; i < pv_grid->nx * pv_grid->ny; i++) {
-227:         if (pv_grid->entries[i]->v2 > max_val->v2) {
-228:             max_val = pv_grid->entries[i];

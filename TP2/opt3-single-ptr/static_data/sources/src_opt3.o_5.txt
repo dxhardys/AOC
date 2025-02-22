@@ -1,5 +1,0 @@
-/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt3.c: 101 - 102
---------------------------------------------------------------------------------
-
-101:     for (unsigned i = 0; i < total_values; i++) {
-102:         if (fscanf(fp, "%f %f", &val_grid->entries[i].v1, &val_grid->entries[i].v2) != 2) {

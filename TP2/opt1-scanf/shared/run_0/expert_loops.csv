@@ -1,5 +1,0 @@
-ID;Module;Source Location;Source Function;Level;Max Time Over Threads (s);Time w.r.t. Wall Time (s);Coverage (% app. time);Speedup if no scalar integer;Speedup if FP arith vectorized;Speedup if fully vectorized;Speedup if FP only;Number of paths;Vectorization Ratio (%);Vectorization Efficiency (%);CQA cycles;CQA cycles if no scalar integer;CQA cycles if FP arith vectorized;CQA cycles if fully vectorized;CQA cycles if FP only
-Loop 8;opt1.o;opt1.c:161-171;load_positions;Innermost;0.14000000059605;0.13999998569489;0.26256701350212;5.33;1.00;5.63;21.33;1;0.00;21.38;21.33;4.00;21.33;3.79;1.00
-Loop 7;opt1.o;opt1.c:111-114,opt1.c:121-122,opt1.c:128-133;load_values;Single;0.064999997615814;0.064999990165234;0.12190610915422;3.93;1.00;6.27;3.93;1;9.09;21.02;9.83;2.50;9.83;1.57;2.50
-Loop 6;opt1.o;stdio2.h:105-105,opt1.c:59-63;generate_random_values;Innermost;0.035000000149012;0.034999996423721;0.06564175337553;2.92;2.31;8.00;5.83;1;8.00;17.50;11.67;4.00;5.05;1.46;2.00
-Loop 1;opt1.o;opt1.c:252-254;main;Innermost;0.00999999884516;0.0099999997764826;0.018754787743092;1.00;1.00;4.00;12.33;1;0.00;25.00;12.33;12.33;12.33;3.08;1.00

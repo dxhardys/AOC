@@ -1,6 +1,0 @@
-/home/sofiane/AOC/tp-rendu/aoc-tp-2/opt2.c: 244 - 246
---------------------------------------------------------------------------------
-
-244:       for (j=0; j<pv_grid.ny; j++) {
-245:          free (pv_grid.entries [i * pv_grid.ny + j]);
-246:          sum_bytes -= sizeof *(pv_grid.entries[0]);

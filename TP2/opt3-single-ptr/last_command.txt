@@ -1,1 +1,0 @@
-maqao OV -R1 xp=opt3-single-ptr -- ./opt3.o 50 2000 3000 
